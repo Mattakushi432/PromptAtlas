@@ -2,7 +2,7 @@
 
 An open-source library of prompts, patterns, and techniques for modern AI models — bilingual, English and Ukrainian, and nothing but a git repository. No website, no app: browse it directly on GitHub, `git clone` it, or grab a raw file straight into your AI tool of choice.
 
-**Stats:** 4 prompts · 13 categories, each targeting 500 distinct prompts · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress.
+**Stats:** 84 prompts · 13 categories, each targeting 500 distinct prompts · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress. Coding & Development — 81/500.
 
 ## Categories
 
@@ -28,6 +28,7 @@ Category folders appear under both `en/<slug>/` and `uk/<slug>/` once they hold 
 
 ## Recently added
 
+- 80 new `coding` prompts (en/uk) — code review, debugging, testing, refactoring, architecture, API/backend, databases, frontend, mobile, DevOps, security, performance, git/collaboration, docs, AI-assisted workflows, and algorithms/interview prep. See [`docs/coverage-matrix/coding.md`](docs/coverage-matrix/coding.md) for the full shipped list.
 - [Code Review Assistant](en/coding/code-review-assistant.md) ([UK](uk/coding/code-review-assistant.md)) — `coding`
 - [Agent System Prompt Drafter](en/agents-and-automation/agent-system-prompt-drafter.md) ([UK](uk/agents-and-automation/agent-system-prompt-drafter.md)) — `agents-and-automation`
 - [Tool / Function Schema Reviewer](en/agents-and-automation/tool-schema-reviewer.md) ([UK](uk/agents-and-automation/tool-schema-reviewer.md)) — `agents-and-automation`
@@ -56,7 +57,7 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 Відкрита бібліотека промптів, патернів і технік для сучасних AI-моделей — двомовна, англійська та українська, і не більше ніж git-репозиторій. Жодного сайту, жодного застосунку: переглядайте прямо на GitHub, робіть `git clone` або беріть raw-файл напряму у свій AI-інструмент.
 
-**Статистика:** 4 промпти · 13 категорій, кожна з ціллю 500 унікальних промптів · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md).
+**Статистика:** 84 промпти · 13 категорій, кожна з ціллю 500 унікальних промптів · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md). Кодинг та розробка — 81/500.
 
 ## Категорії
 
@@ -82,6 +83,7 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 ## Нещодавно додано
 
+- 80 нових промптів `coding` (en/uk) — код-рев'ю, дебагінг, тестування, рефакторинг, архітектура, API/бекенд, бази даних, фронтенд, мобільна розробка, DevOps, безпека, продуктивність, git/співпраця, документація, AI-асистовані воркфлоу, алгоритми/підготовка до співбесід. Повний список — у [`docs/coverage-matrix/coding.md`](docs/coverage-matrix/coding.md).
 - [Асистент код-рев'ю](uk/coding/code-review-assistant.md) ([EN](en/coding/code-review-assistant.md)) — `coding`
 - [Асистент для написання системних промптів агентів](uk/agents-and-automation/agent-system-prompt-drafter.md) ([EN](en/agents-and-automation/agent-system-prompt-drafter.md)) — `agents-and-automation`
 - [Рев'ювер схем інструментів / функцій](uk/agents-and-automation/tool-schema-reviewer.md) ([EN](en/agents-and-automation/tool-schema-reviewer.md)) — `agents-and-automation`
