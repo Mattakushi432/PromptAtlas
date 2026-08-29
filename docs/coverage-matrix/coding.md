@@ -25,6 +25,8 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `flaky-test-investigator` — testing / debug-troubleshoot / advanced — hypothesizes causes of an intermittently failing test.
 - `rubber-duck-debugging-partner` — general / debug-troubleshoot / beginner — Socratic-questions the user toward their own bug instead of giving the answer.
 - `incident-root-cause-analyzer` — DevOps/infra / debug-troubleshoot / advanced — given logs/symptoms, ranks root-cause hypotheses by likelihood.
+- `bug-repro-narrower` — general / debug-troubleshoot / junior — turns a vague bug report into a minimal, executable reproduction plan.
+- `concurrency-bug-hunter` — general / debug-troubleshoot / advanced — hypothesizes race condition/deadlock/data race sources from code and symptoms.
 
 ### Testing & QA
 - `unit-test-generator` — testing / draft-generate / intermediate — generates unit tests, including edge cases, from a function signature.
@@ -39,6 +41,7 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `dead-code-finder` — general / review-critique / intermediate — identifies likely-dead code paths and unused dependencies from context.
 - `naming-convention-auditor` — general / review-critique / beginner — flags unclear/inconsistent names and proposes better ones.
 - `monolith-decomposition-planner` — backend / plan / advanced — proposes how to split a large file/module into cohesive smaller ones.
+- `cross-language-idiom-mapper` — migration / plan / advanced — maps idioms/patterns from a source to a target language before a port begins.
 
 ### Architecture & System Design
 - `adr-drafter` — general / document / intermediate — turns a decision discussion into a formal Architecture Decision Record.
@@ -53,6 +56,8 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `graphql-schema-reviewer` — backend / review-critique / advanced — critiques a GraphQL schema for N+1 risk and over-fetching.
 - `api-error-handling-auditor` — backend / review-critique / advanced — audits an API's idempotency and error-handling behavior.
 - `openapi-doc-generator` — documentation / document / intermediate — drafts OpenAPI/Swagger documentation from existing endpoint code.
+- `api-contract-consistency-reviewer` — backend / review-critique / senior — reviews multiple endpoints for naming/pagination/error/versioning consistency, not per-endpoint correctness.
+- `rate-limiting-strategy-designer` — backend / plan / intermediate — designs a rate-limiting algorithm/limits for an endpoint given traffic pattern and abuse concerns.
 
 ### Database & SQL
 - `sql-query-optimizer` — databases / optimize-refactor / advanced — given a slow query + schema, proposes an optimized version and indexes.
@@ -60,6 +65,7 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `safe-migration-script-writer` — databases / draft-generate / intermediate — writes a safe, reversible database migration script.
 - `n-plus-one-detector` — databases / debug-troubleshoot / advanced — spots N+1 query patterns in ORM code.
 - `normalization-advisor` — databases / plan / beginner — recommends a normalization level for a given data model.
+- `migration-lock-risk-auditor` — databases / review-critique / advanced — audits an existing migration script for locking/downtime risk on a live database.
 
 ### Frontend & UI Engineering
 - `accessibility-auditor` — frontend / review-critique / intermediate — audits a UI component for accessibility (a11y) issues.
@@ -74,6 +80,7 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `app-store-rejection-fixer` — mobile / debug-troubleshoot / beginner — given a store rejection reason, proposes the specific code/config fix.
 - `mobile-battery-drain-diagnostic` — mobile / debug-troubleshoot / advanced — diagnoses likely causes of excessive battery/CPU drain.
 - `offline-first-sync-designer` — mobile / plan / advanced — designs an offline-first data sync strategy for a mobile app.
+- `mobile-perf-trace-interpreter` — mobile / debug-troubleshoot / intermediate — interprets a profiler trace (frame timings, CPU/GPU) and prioritizes fixes.
 
 ### DevOps, CI/CD & Cloud Infrastructure
 - `ci-pipeline-debugger` — DevOps/infra / debug-troubleshoot / intermediate — diagnoses a failing CI pipeline from its log output.
@@ -81,6 +88,7 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `k8s-manifest-reviewer` — DevOps/infra / review-critique / advanced — reviews a Kubernetes manifest for common misconfigurations.
 - `terraform-reviewer` — DevOps/infra / review-critique / advanced — reviews Terraform/IaC code for risk and best-practice violations.
 - `deployment-rollback-planner` — DevOps/infra / plan / intermediate — generates a rollback plan for a specific deployment change.
+- `iac-drift-detector` — DevOps/infra / review-critique / advanced — flags drift between IaC and a described actual infrastructure state.
 
 ### Security (AppSec)
 - `injection-vulnerability-scanner` — security / review-critique / advanced — scans a code snippet for injection/input-validation vulnerabilities.
@@ -88,6 +96,7 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `auth-flow-reviewer` — security / review-critique / advanced — reviews an authentication/authorization flow for weaknesses.
 - `dependency-cve-triage` — security / review-critique / intermediate — triages the real-world risk of a CVE given how a dependency is actually used.
 - `secure-coding-checklist-generator` — security / document / beginner — generates a secure-coding checklist for a given language/framework.
+- `threat-model-kickoff` — security / plan / advanced — first-pass STRIDE-style threat model from a feature description, before code is written.
 
 ### Performance Optimization
 - `big-o-complexity-analyzer` — algorithms / review-critique / intermediate — analyzes the time/space complexity of a given function.
@@ -109,6 +118,7 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `new-hire-onboarding-guide` — documentation / document / intermediate — generates an onboarding guide for a specific repository.
 - `oncall-runbook-writer` — documentation / document / intermediate — writes an on-call runbook for a specific service.
 - `diagram-spec-generator` — documentation / document / intermediate — turns an architecture description into a Mermaid/diagram-as-code spec.
+- `unfamiliar-module-explainer` — general / explain-teach / junior — explains one unfamiliar file/module's structure and non-obvious decisions to a newcomer.
 
 ### AI-Assisted / Agentic Coding Workflows
 - `ai-coding-prompt-writer` — general / draft-generate / intermediate (tool/context: coding agent) — helps a developer write better prompts for their AI coding agent.
@@ -124,13 +134,17 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `mock-interview-conductor` — algorithms / explain-teach / intermediate — conducts a Socratic mock technical interview with follow-up questions.
 - `whiteboard-to-code-translator` — algorithms / draft-generate / beginner — turns a described algorithm into clean, working code in a target language.
 
+### Feature Delivery & Release Safety
+- `feature-flag-rollout-planner` — DevOps/infra / plan / intermediate — designs a staged flag-based rollout with kill-switch conditions for a risky change.
+- `tech-debt-prioritization-matrix` — general / plan / advanced — turns a raw tech-debt list into an ROI-ranked, defensible paydown plan.
+
 ## Backlog — ideas ready to draft
 
-1. **API Design Reviewer** — backend / review-critique / senior — reviews a REST/GraphQL contract for consistency and versioning, not implementation.
-2. **Bug Reproduction Narrower** — backend / debug-troubleshoot / junior — turns a vague bug report into a minimal repro plan.
-3. **Database Migration Safety Checker** — databases / review-critique / senior — audits a migration script for locking/downtime risk.
-4. **Legacy Code Onboarding Explainer** — general / explain-teach / junior — explains an unfamiliar module to someone new to it.
-5. **Mobile Performance Profiler Interpreter** — mobile / debug-troubleshoot / intermediate — interprets a perf trace and prioritizes fixes.
-6. **Infra-as-Code Drift Detector** — DevOps / review-critique / senior — flags drift between IaC and described actual infra.
-7. **Security Threat Modeling Kickoff** — security / plan / senior — first-pass STRIDE-style threat model from a feature description.
-8. **Cross-Language Migration Mapper** — migration / plan / senior — maps idioms from a source to a target language for porting.
+1. **Local Dev Environment Bootstrap Generator** — DevOps/infra / draft-generate / beginner — generates setup scripts/config for a new dev's local environment from a stack description.
+2. **Idempotency Key Design Advisor** — backend / plan / intermediate — designs an idempotency mechanism for a new write endpoint from scratch.
+3. **Multi-Tenant Data Isolation Reviewer** — databases / review-critique / senior — audits a schema/query layer for cross-tenant data leakage risk.
+4. **A/B Test Instrumentation Reviewer** — general / review-critique / intermediate — checks experiment instrumentation code for common statistical/tracking pitfalls.
+5. **Event Schema Evolution Advisor** — backend / plan / advanced — plans backward-compatible changes to an event/message schema consumed by multiple services.
+6. **Third-Party API Integration Risk Assessor** — backend / review-critique / intermediate — assesses resilience of code calling an external API (timeouts, retries, fallback behavior).
+7. **Code Review Turnaround Bottleneck Diagnostician** — general / debug-troubleshoot / manager — diagnoses why a team's PR review cycle is slow from process description.
+8. **Batch Job Idempotency & Retry Auditor** — DevOps/infra / review-critique / advanced — audits a scheduled/batch job for safe-to-retry and safe-to-rerun behavior.
