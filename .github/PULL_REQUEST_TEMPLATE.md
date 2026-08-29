@@ -21,6 +21,7 @@ Score each 1–5 (see [`CONTRIBUTING.md`](../CONTRIBUTING.md#quality-rubric) for
 | Robustness | |
 | Reusability | |
 | Bilingual equivalence | |
+| Distinctiveness | |
 
 - [ ] If any dimension scored below 3, or the average is below 4.0, both files are set to `status: draft`.
 
@@ -28,5 +29,6 @@ Score each 1–5 (see [`CONTRIBUTING.md`](../CONTRIBUTING.md#quality-rubric) for
 
 - [ ] Filename doubles as a stable `id` (no renaming an existing published prompt).
 - [ ] `## Example` section has a realistic, filled-in input/output.
-- [ ] `docs/taxonomy.md` prompt counts updated for the affected category/categories.
+- [ ] Checked against the category's `docs/coverage-matrix/<slug>.md` index — this idea isn't a near-duplicate of an existing prompt.
+- [ ] `docs/roadmap.md` counts (Stable/Draft/Backlog) updated for the affected category, and the idea removed from its backlog list.
 - [ ] `CHANGELOG.md` has a new entry.

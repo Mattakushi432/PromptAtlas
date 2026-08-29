@@ -6,8 +6,9 @@ Thanks for helping grow the library. PromptAtlas stays a plain git repository �
 
 - **Bilingual by default.** A new prompt needs both an `en/` and a `uk/` file before it can merge. The Ukrainian version must be a native localization — written the way a Ukrainian-speaking user would actually phrase it — not a literal translation of the English text.
 - **Same filename, both languages.** `en/coding/code-review-assistant.md` pairs with `uk/coding/code-review-assistant.md`. That filename is the prompt's permanent id — don't rename it once merged.
-- **Improve, don't duplicate.** Before adding a prompt, check whether something similar already exists in that category. If it does, open a PR improving it instead (see "Editing an existing prompt" below).
-- **Categories** live in [`docs/taxonomy.md`](docs/taxonomy.md). Pick the closest fit; propose a new category only once you have 3–5 real prompts for it.
+- **Improve, don't duplicate.** Before adding a prompt, check whether something similar already exists in that category. If it does, open a PR improving it instead (see "Editing an existing prompt" below) — a prompt that only rewords or narrows an existing one is a rubric failure (dimension 8, below), not a new entry.
+- **Categories** live in [`docs/taxonomy.md`](docs/taxonomy.md). Pick the closest fit; propose a new top-level category only with explicit maintainer sign-off.
+- **Ideas welcome from the backlog.** [`docs/roadmap.md`](docs/roadmap.md) tracks each category's progress toward its 500-prompt target and links to `docs/coverage-matrix/<slug>.md`, which lists concrete, not-yet-written prompt ideas derived from that category's dimension matrix. Pulling from there is the fastest way to land a genuinely distinct contribution.
 
 ## Adding a new prompt
 
@@ -82,6 +83,7 @@ Score each dimension 1–5. A prompt needs an average of 4.0+, with no single di
 5. **Robustness** — still produces a sane result on edge-case inputs (empty, huge, unexpected language, unusual request).
 6. **Reusability** — generalizes past one narrow example; placeholders are genuinely parameterizable.
 7. **Bilingual equivalence** — the `uk/` version reads as natively well-written as the `en/` version.
+8. **Distinctiveness** — solves a materially different job than every other prompt already shipped in its category. This is a hard gate: if a candidate fails it, it doesn't ship as a new entry no matter how close the category is to its 500-prompt target — fold it into the existing prompt's Tips & Variations instead.
 
 ## Reporting a broken or outdated prompt
 
