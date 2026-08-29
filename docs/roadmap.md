@@ -16,11 +16,11 @@ Tracks progress toward the 500-distinct-prompt-per-category floor defined in `CU
 | [research-and-academic](coverage-matrix/research-and-academic.md) | 500 | 0 | 0 | 12 |
 | [creative-and-visual](coverage-matrix/creative-and-visual.md) | 500 | 0 | 0 | 12 |
 | [voice-and-audio](coverage-matrix/voice-and-audio.md) | 500 | 0 | 0 | 12 |
-| [agents-and-automation](coverage-matrix/agents-and-automation.md) | 500 | 0 | 0 | 12 |
+| [agents-and-automation](coverage-matrix/agents-and-automation.md) | 500 | 3 | 0 | 9 |
 | [career-and-hr](coverage-matrix/career-and-hr.md) | 500 | 0 | 0 | 12 |
 | [social-media](coverage-matrix/social-media.md) | 500 | 0 | 0 | 12 |
 
-**Total: 1 stable, 0 draft, out of a 6,500-prompt floor across all categories.**
+**Total: 4 stable, 0 draft, out of a 6,500-prompt floor across all categories.**
 
 ## Notes
 

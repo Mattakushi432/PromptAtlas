@@ -2,7 +2,7 @@
 
 An open-source library of prompts, patterns, and techniques for modern AI models — bilingual, English and Ukrainian, and nothing but a git repository. No website, no app: browse it directly on GitHub, `git clone` it, or grab a raw file straight into your AI tool of choice.
 
-**Stats:** 1 prompt · 13 categories, each targeting 500 distinct prompts · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress.
+**Stats:** 4 prompts · 13 categories, each targeting 500 distinct prompts · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress.
 
 ## Categories
 
@@ -29,6 +29,9 @@ Category folders appear under both `en/<slug>/` and `uk/<slug>/` once they hold 
 ## Recently added
 
 - [Code Review Assistant](en/coding/code-review-assistant.md) ([UK](uk/coding/code-review-assistant.md)) — `coding`
+- [Agent System Prompt Drafter](en/agents-and-automation/agent-system-prompt-drafter.md) ([UK](uk/agents-and-automation/agent-system-prompt-drafter.md)) — `agents-and-automation`
+- [Tool / Function Schema Reviewer](en/agents-and-automation/tool-schema-reviewer.md) ([UK](uk/agents-and-automation/tool-schema-reviewer.md)) — `agents-and-automation`
+- [Guardrail Prompt Hardener](en/agents-and-automation/guardrail-prompt-hardener.md) ([UK](uk/agents-and-automation/guardrail-prompt-hardener.md)) — `agents-and-automation`
 
 Have an idea? Check the [roadmap](docs/roadmap.md) and each category's coverage matrix, or [request a prompt](.github/ISSUE_TEMPLATE/request-a-prompt.md).
 
@@ -53,7 +56,7 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 Відкрита бібліотека промптів, патернів і технік для сучасних AI-моделей — двомовна, англійська та українська, і не більше ніж git-репозиторій. Жодного сайту, жодного застосунку: переглядайте прямо на GitHub, робіть `git clone` або беріть raw-файл напряму у свій AI-інструмент.
 
-**Статистика:** 1 промпт · 13 категорій, кожна з ціллю 500 унікальних промптів · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md).
+**Статистика:** 4 промпти · 13 категорій, кожна з ціллю 500 унікальних промптів · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md).
 
 ## Категорії
 
@@ -80,6 +83,9 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 ## Нещодавно додано
 
 - [Асистент код-рев'ю](uk/coding/code-review-assistant.md) ([EN](en/coding/code-review-assistant.md)) — `coding`
+- [Асистент для написання системних промптів агентів](uk/agents-and-automation/agent-system-prompt-drafter.md) ([EN](en/agents-and-automation/agent-system-prompt-drafter.md)) — `agents-and-automation`
+- [Рев'ювер схем інструментів / функцій](uk/agents-and-automation/tool-schema-reviewer.md) ([EN](en/agents-and-automation/tool-schema-reviewer.md)) — `agents-and-automation`
+- [Зміцнення guardrails у системному промпті](uk/agents-and-automation/guardrail-prompt-hardener.md) ([EN](en/agents-and-automation/guardrail-prompt-hardener.md)) — `agents-and-automation`
 
 Є ідея? Перегляньте [roadmap](docs/roadmap.md) та матрицю покриття потрібної категорії, або [запросіть промпт](.github/ISSUE_TEMPLATE/request-a-prompt.md).
 
