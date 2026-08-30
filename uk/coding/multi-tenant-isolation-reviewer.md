@@ -2,7 +2,7 @@
 id: multi-tenant-isolation-reviewer
 title: Рев'ю ізоляції даних у multi-tenant застосунку
 category: coding
-tags: [databases, multi-tenancy, security]
+tags: [database, multi-tenancy, security]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
 version: 1.0.0

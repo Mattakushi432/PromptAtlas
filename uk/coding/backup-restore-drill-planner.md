@@ -2,7 +2,7 @@
 id: backup-restore-drill-planner
 title: Планувальник навчань відновлення з резервної копії
 category: coding
-tags: [databases, disaster-recovery, operations]
+tags: [database, disaster-recovery, operations]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
 version: 1.0.0

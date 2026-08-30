@@ -2,7 +2,7 @@
 id: db-read-replica-lag-advisor
 title: Радник з лагу read-реплік бази даних
 category: coding
-tags: [databases, backend, scalability]
+tags: [database, backend, scalability]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
 version: 1.0.0

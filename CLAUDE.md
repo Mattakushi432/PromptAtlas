@@ -17,11 +17,22 @@ PromptAtlas is a bilingual (English/Ukrainian) open-source library of AI prompts
 - **Bilingual pairing is the core invariant.** Every prompt exists as two files at the *same relative path* under `en/` and `uk/`, e.g. `en/coding/code-review-assistant.md` ↔ `uk/coding/code-review-assistant.md`. The filename is the prompt's permanent `id` — never renamed once published. The `uk/` file must be a native localization, not a literal translation.
 - **Frontmatter localization convention:** `title` is translated in the `uk/` file (human-facing); `id`, `category`, `tags`, `target_models`, `difficulty`, `status`, and `version` stay identical/English across both files (structural — this is what `scripts/check-parity.js` diffs on).
 - **Category slugs stay in English in both trees** (`uk/coding/`, not a translated folder name), so the two trees are directly comparable path-for-path — this is what lets `scripts/check-parity.js` pair files by path alone. Localized display names live in `docs/taxonomy.md`, not in the folder name.
-- **`docs/taxonomy.md`** is the canonical, fixed category list (13 categories) with EN/UK display names, slugs, and per-language prompt counts. Update the counts whenever a prompt is added, removed, or its `status` changes to/from `deprecated`. Don't create a category folder until it holds ~3-5 real prompts.
-- **Every prompt file follows one exact template** (frontmatter + fixed sections): frontmatter fields are `id, title, category, tags, target_models, difficulty, version, status, language, last_updated`; body sections are `## Description`, `## When to use it`, `## The Prompt`, `## Variables`, `## Example`, `## Tips & Variations`, `## Changelog`.
+- **`docs/taxonomy.md`** is the canonical, fixed category list (13 categories) with EN/UK display names and slugs — definitions only. Per-language prompt counts and progress toward each category's 500-prompt target live in `docs/roadmap.md` instead (moved there 2026-08-29; don't re-add count columns to `docs/taxonomy.md`). Don't create a category folder until it holds ~3-5 real prompts.
+- **Every prompt file follows one exact template** (frontmatter + fixed sections): frontmatter fields are `id, title, category, tags, target_models, difficulty, version, status, language, last_updated`; body sections are `## Description`, `## When to use it`, `## The Prompt`, `## Variables`, `## Example`, `## Tips & Variations`, `## Changelog`. The `uk/` file translates every section heading natively rather than keeping the English heading — the pairing is by file path and frontmatter, not by heading text:
+
+  | EN heading | UK heading |
+  |---|---|
+  | `## Description` | `## Опис` |
+  | `## When to use it` | `## Коли використовувати` |
+  | `## The Prompt` | `## Промпт` |
+  | `## Variables` | `## Змінні` |
+  | `## Example` | `## Приклад` |
+  | `## Tips & Variations` | `## Поради та варіації` |
+  | `## Changelog` | `## Історія змін` |
+
 - **Versioning is semver**: `patch` = wording fix/typo, no behavior change; `minor` = new variable/section, backward-compatible; `major` = core approach or expected output changes. When either language file is edited, bump `version` on *both* language files in lockstep, even if only one language's wording changed — the version number always describes the shared underlying prompt design, not per-language wording.
-- **`status` gates publication**: `draft` → `stable` requires an average quality-rubric score of 4.0+ with no single dimension below 3 (the 7-dimension rubric — clarity, specificity, structure, output control, robustness, reusability, bilingual equivalence — is defined in `CONTRIBUTING.md` and `CURATOR_PROMPT.md` §5). `deprecated` replaces deletion when a prompt is superseded — never delete a published prompt outright.
-- **`CHANGELOG.md`** gets a new entry for every prompt addition or edit, alongside the `docs/taxonomy.md` count update.
+- **`status` gates publication**: `draft` → `stable` requires an average quality-rubric score of 4.0+ with no single dimension below 3 (the 8-dimension rubric — clarity, specificity, structure, output control, robustness, reusability, bilingual equivalence, distinctiveness — is defined in `CONTRIBUTING.md` and `CURATOR_PROMPT.md` §5). `deprecated` replaces deletion when a prompt is superseded — never delete a published prompt outright.
+- **`CHANGELOG.md`** gets a new entry for every prompt addition or edit, alongside the `docs/roadmap.md` count update.
 
 ## Branching
 

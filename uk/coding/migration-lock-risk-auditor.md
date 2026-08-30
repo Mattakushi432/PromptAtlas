@@ -2,7 +2,7 @@
 id: migration-lock-risk-auditor
 title: Аудит ризику блокувань і простою при міграції
 category: coding
-tags: [databases, migrations, downtime, safety]
+tags: [database, migrations, downtime, safety]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
 version: 1.0.0

@@ -2,7 +2,7 @@
 id: db-connection-pool-sizing-advisor
 title: Database Connection Pool Sizing Advisor
 category: coding
-tags: [databases, backend, performance]
+tags: [database, backend, performance]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: intermediate
 version: 1.0.0
