@@ -7,19 +7,18 @@
 
 ## Shipped
 
-_None yet._
+1. [Outline-to-Draft Blog Expander](../../en/writing-and-content/outline-to-draft-blog-expander.md) — blog / draft / solo creator.
+2. [Ruthless Line Editor](../../en/writing-and-content/ruthless-line-editor.md) — general / edit-tighten.
+3. [Tone Adapter](../../en/writing-and-content/tone-adapter.md) — general / adapt-tone / marketing team.
+4. [Cold Email Sequence Drafter](../../en/writing-and-content/cold-email-sequence-drafter.md) — email / draft / marketing team.
+5. [Non-Native English Polish Pass](../../en/writing-and-content/non-native-english-polish-pass.md) — edit-tighten / non-native-English writer.
+6. [UX Microcopy Reviewer](../../en/writing-and-content/ux-microcopy-reviewer.md) — UX copy / edit-tighten.
 
 ## Backlog — ideas ready to draft
 
-1. **Outline-to-Draft Blog Expander** — blog / draft / solo creator.
-2. **Ruthless Line Editor** — general / edit-tighten — cuts word count by a target % while preserving meaning.
-3. **Tone Adapter** — general / adapt-tone / marketing team — rewrites a passage to a specified brand voice.
-4. **Cold Email Sequence Drafter** — email / draft / marketing team.
-5. **Long-Form to Thread Repurposer** — repurpose — turns an article into a platform-native thread.
-6. **Headline A/B Variant Generator** — hook-generation / marketing team.
-7. **Non-Native English Polish Pass** — edit-tighten — fixes phrasing/idiom issues without erasing the writer's voice.
-8. **Technical Concept Simplifier for Laypeople** — technical writing / adapt-tone / technical SME.
-9. **Product Description Generator from Spec Sheet** — product descriptions / draft.
-10. **Press Release Structurer** — press/PR / draft.
-11. **Video Script Beat Sheet Builder** — scriptwriting / plan.
-12. **UX Microcopy Reviewer** — UX copy / edit-tighten — audits button/error/empty-state text for clarity and tone consistency.
+1. **Long-Form to Thread Repurposer** — repurpose — turns an article into a platform-native thread. (Invite issue open: [#6](https://github.com/Mattakushi432/PromptAtlas/issues/6))
+2. **Headline A/B Variant Generator** — hook-generation / marketing team. (Invite issue open: [#7](https://github.com/Mattakushi432/PromptAtlas/issues/7))
+3. **Technical Concept Simplifier for Laypeople** — technical writing / adapt-tone / technical SME.
+4. **Product Description Generator from Spec Sheet** — product descriptions / draft. (Invite issue open: [#8](https://github.com/Mattakushi432/PromptAtlas/issues/8))
+5. **Press Release Structurer** — press/PR / draft.
+6. **Video Script Beat Sheet Builder** — scriptwriting / plan.

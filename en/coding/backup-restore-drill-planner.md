@@ -5,7 +5,7 @@ category: coding
 tags: [databases, disaster-recovery, operations]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
 last_updated: 2026-08-30
@@ -62,4 +62,5 @@ Not covered by this drill: this only validates restoring the MOST RECENT nightly
 - Schedule the drill cadence based on how often the schema changes, not on a fixed calendar interval alone — a system that just went through several migrations is a better candidate for a fresh drill than the calendar alone would suggest.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Normalized tag from `database` to canonical `databases` (see `docs/tags.md`).
 - 1.0.0 (2026-08-30): Initial version.

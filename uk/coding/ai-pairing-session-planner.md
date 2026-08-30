@@ -3,12 +3,12 @@ id: ai-pairing-session-planner
 title: Планувальник сесій парного програмування з AI
 category: coding
 tags: [ai-agents, pair-programming, workflow]
-target_models: [Claude, GPT-4o, Gemini]
+target_models: [Claude Code, Cursor, GitHub Copilot]
 difficulty: beginner
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Опис
@@ -66,4 +66,5 @@ last_updated: 2026-08-29
 - Переглядай план посеред сесії, якщо завдання виявиться легшим чи складнішим за очікуване — це стартова структура, не жорсткий сценарій.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Уточнено `target_models` до реальних агентних інструментів кодування, для яких призначений цей промпт (Claude Code, Cursor, GitHub Copilot), замість загального списку чат-моделей.
 - 1.0.0 (2026-08-29): Початкова версія.

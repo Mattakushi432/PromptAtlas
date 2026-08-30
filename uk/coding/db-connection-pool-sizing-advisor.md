@@ -5,7 +5,7 @@ category: coding
 tags: [databases, backend, performance]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: intermediate
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
 last_updated: 2026-08-30
@@ -63,4 +63,5 @@ last_updated: 2026-08-30
 - Для бази даних з дуже різними класами тривалості запитів, змішаними в одному пулі (швидкі пошуки і повільні звіти), попроси розглянути, чи окремий пул для повільного навантаження запобіг би тому, щоб звітні запити позбавляли швидкі пошуки з'єднань.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Нормалізовано тег `database` до канонічного `databases` (див. `docs/tags.md`).
 - 1.0.0 (2026-08-30): Початкова версія.

@@ -12,10 +12,10 @@ _None yet._
 ## Backlog — ideas ready to draft
 
 1. **Resume Bullet Rewriter for Impact** — resume writing / edit / job seeker.
-2. **Cover Letter Drafter from Resume + Job Post** — cover letters / draft.
-3. **Behavioral Interview Question Bank Generator** — interview prep / plan / hiring manager.
+2. **Cover Letter Drafter from Resume + Job Post** — cover letters / draft. (Invite issue open: [#9](https://github.com/Mattakushi432/PromptAtlas/issues/9))
+3. **Behavioral Interview Question Bank Generator** — interview prep / plan / hiring manager. (Invite issue open: [#10](https://github.com/Mattakushi432/PromptAtlas/issues/10))
 4. **Mock Interview Practice Partner** — interview prep / practice / job seeker.
-5. **Job Description Bias Auditor** — job description writing / critique.
+5. **Job Description Bias Auditor** — job description writing / critique. (Invite issue open: [#11](https://github.com/Mattakushi432/PromptAtlas/issues/11))
 6. **Performance Review Draft from Bullet Notes** — performance reviews / draft / new manager.
 7. **30-60-90 Day Onboarding Plan Builder** — onboarding / plan.
 8. **Compensation Band Rationale Writer** — compensation benchmarking / draft.

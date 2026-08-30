@@ -5,7 +5,7 @@ category: coding
 tags: [databases, migrations, downtime, safety]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
 last_updated: 2026-08-30
@@ -68,4 +68,5 @@ Overall verdict: needs a maintenance window or a lock_timeout guard, not a rewri
 - Feed it the output of `EXPLAIN` or the engine's own migration-timing logs as extra `{{TABLE_CONTEXT}}` if a migration already ran and you're doing a postmortem instead of a pre-merge review.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Normalized tag from `database` to canonical `databases` (see `docs/tags.md`).
 - 1.0.0 (2026-08-30): Initial version.

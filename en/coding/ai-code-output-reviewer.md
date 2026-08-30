@@ -3,12 +3,12 @@ id: ai-code-output-reviewer
 title: AI Code Output Reviewer
 category: coding
 tags: [ai-agents, code-review, quality-assurance]
-target_models: [Claude, GPT-4o, Gemini]
+target_models: [Claude Code, Cursor, GitHub Copilot]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Description
@@ -60,4 +60,5 @@ Fix: use `requests.Session()` with a mounted `HTTPAdapter(max_retries=Retry(tota
 - Pair with actually running the code/tests as the ground-truth check for hallucinated APIs — a real runtime error is definitive in a way no amount of static review confidence can be.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Narrowed `target_models` to the actual agentic coding tools this prompt targets (Claude Code, Cursor, GitHub Copilot) instead of the generic chat-model list.
 - 1.0.0 (2026-08-29): Initial version.

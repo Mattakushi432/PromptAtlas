@@ -3,12 +3,12 @@ id: ai-pairing-session-planner
 title: AI Pairing Session Planner
 category: coding
 tags: [ai-agents, pair-programming, workflow]
-target_models: [Claude, GPT-4o, Gemini]
+target_models: [Claude Code, Cursor, GitHub Copilot]
 difficulty: beginner
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Description
@@ -66,4 +66,5 @@ Checkpoint: since idempotency is a correctness-critical, easy-to-get-subtly-wron
 - Revisit the plan mid-session if the task turns out easier or harder than expected — this is a starting structure, not a rigid script.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Narrowed `target_models` to the actual agentic coding tools this prompt targets (Claude Code, Cursor, GitHub Copilot) instead of the generic chat-model list.
 - 1.0.0 (2026-08-29): Initial version.

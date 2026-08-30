@@ -2,13 +2,13 @@
 id: schema-designer-from-requirements
 title: Дизайнер схем із вимог
 category: coding
-tags: [database, schema-design, data-modeling]
+tags: [databases, schema-design, data-modeling]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: intermediate
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Опис
@@ -76,4 +76,5 @@ last_updated: 2026-08-29
 - Коли схему затверджено, передай її в «Укладач безпечних міграційних скриптів» для генерації фактичної міграції, а не вручну пиши DDL з цієї чернетки.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Нормалізовано тег `database` до канонічного `databases` (див. `docs/tags.md`).
 - 1.0.0 (2026-08-29): Початкова версія.

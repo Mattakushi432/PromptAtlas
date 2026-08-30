@@ -5,7 +5,7 @@ category: coding
 tags: [databases, backend, scalability]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
 last_updated: 2026-08-30
@@ -59,4 +59,5 @@ Given the stated replication lag profile, flag explicitly if any recommended thr
 - For a system where replica lag is consistently very low and stable (not spiky), a shorter fixed sticky-window becomes a reasonable simplification — tell it explicitly if lag is stable rather than spiky, since the recommended strategy should differ.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Normalized tag from `database` to canonical `databases` (see `docs/tags.md`).
 - 1.0.0 (2026-08-30): Initial version.

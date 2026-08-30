@@ -5,7 +5,7 @@ category: coding
 tags: [databases, backend, performance]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: intermediate
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
 last_updated: 2026-08-30
@@ -63,4 +63,5 @@ Monitor after deploying: pool wait-time p99 and pool-exhaustion event count — 
 - For a database with wildly different query duration classes mixed together (fast lookups and slow reports on the same pool), ask it to consider whether a separate pool for the slow-query workload would prevent report queries from starving fast lookups of connections.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Normalized tag from `database` to canonical `databases` (see `docs/tags.md`).
 - 1.0.0 (2026-08-30): Initial version.

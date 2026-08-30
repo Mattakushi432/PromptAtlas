@@ -2,13 +2,13 @@
 id: safe-migration-script-writer
 title: Укладач безпечних міграційних скриптів
 category: coding
-tags: [database, migrations, devops]
+tags: [databases, migrations, devops]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: intermediate
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Опис
@@ -66,4 +66,5 @@ ALTER TABLE orders VALIDATE CONSTRAINT orders_status_not_null;
 - Поєднуй з «Оцінкою ризику перед мерджем» для ширшого фреймінгу ризику деплою, коли сам скрипт міграції вже написаний.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Нормалізовано тег `database` до канонічного `databases` (див. `docs/tags.md`).
 - 1.0.0 (2026-08-29): Початкова версія.

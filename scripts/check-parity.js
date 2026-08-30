@@ -16,7 +16,10 @@ function listMarkdownFiles(dir) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       results.push(...listMarkdownFiles(full));
-    } else if (entry.isFile() && entry.name.endsWith('.md')) {
+    } else if (entry.isFile() && entry.name.endsWith('.md') && entry.name !== 'README.md') {
+      // README.md inside a category folder is the auto-generated index
+      // (scripts/generate-index.js), not a prompt — it has no frontmatter
+      // and isn't part of the bilingual pairing this script checks.
       results.push(full);
     }
   }
