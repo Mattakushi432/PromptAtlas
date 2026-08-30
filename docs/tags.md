@@ -60,6 +60,9 @@ education, lesson-planning, quiz, study-techniques, tutoring
 ## Productivity & Personal
 delegation, meeting-management, productivity, task-planning
 
+## Data & Analysis
+data-analysis, data-visualization, eda, statistics
+
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request
 
