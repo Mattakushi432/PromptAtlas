@@ -231,7 +231,7 @@ Report: total prompt count per category per language, progress toward each categ
 The root `README.md` must always contain, in both languages (English first, then Ukrainian, separated by a clear `---` and language headers, or as parallel columns — pick one convention and keep it consistent):
 
 - A one-paragraph pitch: what this is, why a repo instead of a website, who it's for.
-- A live-feeling stats line: total prompts, and a per-category progress line against the 500 target (e.g. Coding & Development — 214/500), updated whenever `docs/roadmap.md` changes.
+- A live-feeling stats line: total prompts, and a per-category progress line against the 500 target (e.g. Coding & Development — 214/500), updated whenever `docs/roadmap.md` changes. The static "prompts" count badge at the top of the README must be bumped in the same commit — it isn't auto-generated.
 - A categorized table of contents linking directly to each category folder.
 - A "Prompt of the Month" or "Recently Added" short list, so returning visitors see it's actively maintained. Keep this to the **3-5 most recent entries only** — when adding a new one, drop the oldest so the list doesn't grow unbounded; full history always lives in `CHANGELOG.md`, so nothing is lost by trimming.
 - A short "How to use these prompts" section (copy the prompt, fill in the placeholders, paste into your AI of choice).
