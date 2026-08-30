@@ -48,6 +48,9 @@ blog, brand-voice, content-creation, copywriting, editing, email, microcopy, sal
 ## Marketing & Sales
 ad-copy, case-studies, conversion, icp, landing-pages, marketing-strategy, objection-handling, paid-ads, personalization, positioning, sales, sales-enablement, seo
 
+## Career & HR
+career, career-pathing, coaching, compensation, exit-interview, hr, management, performance-review, resume
+
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request
 

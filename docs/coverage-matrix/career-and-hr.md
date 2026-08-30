@@ -7,19 +7,18 @@
 
 ## Shipped
 
-_None yet._
+1. [Resume Bullet Rewriter for Impact](../../en/career-and-hr/resume-bullet-rewriter-for-impact.md) — resume writing / edit / job seeker.
+2. [Mock Interview Practice Partner](../../en/career-and-hr/mock-interview-practice-partner.md) — interview prep / practice / job seeker.
+3. [Performance Review Draft from Bullet Notes](../../en/career-and-hr/performance-review-draft-from-bullet-notes.md) — performance reviews / draft / new manager.
+4. [30-60-90 Day Onboarding Plan Builder](../../en/career-and-hr/30-60-90-day-onboarding-plan-builder.md) — onboarding / plan.
+5. [Compensation Band Rationale Writer](../../en/career-and-hr/compensation-band-rationale-writer.md) — compensation benchmarking / draft.
+6. [Career Path Options Explorer](../../en/career-and-hr/career-path-options-explorer.md) — career pathing / plan / job seeker.
+7. [Exit Interview Question Set + Theme Synthesizer](../../en/career-and-hr/exit-interview-question-set-theme-synthesizer.md) — exit interviews / plan+analyze.
 
 ## Backlog — ideas ready to draft
 
-1. **Resume Bullet Rewriter for Impact** — resume writing / edit / job seeker.
-2. **Cover Letter Drafter from Resume + Job Post** — cover letters / draft. (Invite issue open: [#9](https://github.com/Mattakushi432/PromptAtlas/issues/9))
-3. **Behavioral Interview Question Bank Generator** — interview prep / plan / hiring manager. (Invite issue open: [#10](https://github.com/Mattakushi432/PromptAtlas/issues/10))
-4. **Mock Interview Practice Partner** — interview prep / practice / job seeker.
-5. **Job Description Bias Auditor** — job description writing / critique. (Invite issue open: [#11](https://github.com/Mattakushi432/PromptAtlas/issues/11))
-6. **Performance Review Draft from Bullet Notes** — performance reviews / draft / new manager.
-7. **30-60-90 Day Onboarding Plan Builder** — onboarding / plan.
-8. **Compensation Band Rationale Writer** — compensation benchmarking / draft.
-9. **Career Path Options Explorer** — career pathing / plan / job seeker.
-10. **Exit Interview Question Set + Theme Synthesizer** — exit interviews / plan+analyze.
-11. **Difficult Feedback Conversation Scripter** — performance reviews / plan / new manager.
-12. **LinkedIn Profile Rewrite from a Resume** — resume writing / draft.
+1. **Cover Letter Drafter from Resume + Job Post** — cover letters / draft. (Invite issue open: [#9](https://github.com/Mattakushi432/PromptAtlas/issues/9))
+2. **Behavioral Interview Question Bank Generator** — interview prep / plan / hiring manager. (Invite issue open: [#10](https://github.com/Mattakushi432/PromptAtlas/issues/10))
+3. **Job Description Bias Auditor** — job description writing / critique. (Invite issue open: [#11](https://github.com/Mattakushi432/PromptAtlas/issues/11))
+4. **Difficult Feedback Conversation Scripter** — performance reviews / plan / new manager.
+5. **LinkedIn Profile Rewrite from a Resume** — resume writing / draft.

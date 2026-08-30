@@ -17,10 +17,10 @@ Tracks progress toward the 500-distinct-prompt-per-category floor defined in `CU
 | [creative-and-visual](coverage-matrix/creative-and-visual.md) | 500 | 0 | 0 | 12 |
 | [voice-and-audio](coverage-matrix/voice-and-audio.md) | 500 | 0 | 0 | 12 |
 | [agents-and-automation](coverage-matrix/agents-and-automation.md) | 500 | 3 | 0 | 9 |
-| [career-and-hr](coverage-matrix/career-and-hr.md) | 500 | 0 | 0 | 12 |
+| [career-and-hr](coverage-matrix/career-and-hr.md) | 500 | 7 | 0 | 5 |
 | [social-media](coverage-matrix/social-media.md) | 500 | 0 | 0 | 12 |
 
-**Total: 145 stable, 0 draft, out of a 6,500-prompt floor across all categories.**
+**Total: 152 stable, 0 draft, out of a 6,500-prompt floor across all categories.**
 
 ## Notes
 
@@ -28,6 +28,6 @@ Tracks progress toward the 500-distinct-prompt-per-category floor defined in `CU
 
 - **`writing-and-content` was seeded 2026-08-30**: 6 of the original 12 backlog ideas were drafted through the full pipeline (both languages, rubric self-scored, `status: stable`); the other 6 were left as backlog rather than rushed, and 3 of those 6 are now open as `good-first-contribution` community invite issues (#6, #7, #8). Its backlog (6 ideas) is now below the ~20 refill threshold — refill it with new matrix-derived ideas next session before drawing it down further, per `CURATOR_PROMPT.md` §6.1/§6.3.
 - **`marketing-and-sales` was seeded 2026-08-30**: 7 of the 12 backlog ideas were drafted through the full pipeline (both languages, rubric self-scored, `status: stable`). The other 5 (pricing objection auditing, competitive battlecards, referral copy, sales deck review, win-back sequences) were left as backlog rather than rushed to 12. Its backlog (5 ideas) is now below the ~20 refill threshold — refill next session per §6.1/§6.3.
-- `career-and-hr` remains unseeded (0/500) — 3 backlog ideas are open as community invite issues (#9, #10, #11) but none have been drafted by the curator yet; queued as the next seeding priority.
+- **`career-and-hr` was seeded 2026-08-30**: 7 of the 12 backlog ideas were drafted through the full pipeline (both languages, rubric self-scored, `status: stable`), deliberately skipping the 3 ideas already open as community invite issues (#9, #10, #11) to avoid the curator duplicating work a contributor might pick up. The remaining 2 non-issue ideas (difficult feedback conversation scripting, LinkedIn profile rewrite) were left as backlog. Its backlog (5 ideas: 3 issue-linked + 2 undrafted) is below the ~20 refill threshold — refill next session per §6.1/§6.3, and check whether issues #9-#11 have been claimed before drafting them directly.
 - Every other category's coverage-matrix backlog still holds its starter set of 12 ideas (below the ~20 refill threshold) — the matrices themselves (dimensions to cross) are the durable artifact; the specific title lists are meant to be expanded during real drafting sessions per `CURATOR_PROMPT.md` §6.1/§6.4, not filled to 20+ speculatively in one pass.
 - No category has been assessed as "at its honest ceiling" yet (per §6.4) — that determination only applies after a category's matrix has actually been worked through, not on day one.
