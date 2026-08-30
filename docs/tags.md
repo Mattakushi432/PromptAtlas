@@ -72,6 +72,9 @@ character-design, consistency, illustration, photography, product-design, produc
 ## Voice & Audio
 audio, podcast, scriptwriting, sound-design, transcription, voiceover
 
+## Social Media
+content-adaptation, content-calendar, crisis-communication, pr, short-form-video, social-media
+
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request
 
