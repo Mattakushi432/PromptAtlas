@@ -2,11 +2,11 @@
 
 [![Check bilingual parity](https://github.com/Mattakushi432/PromptAtlas/actions/workflows/check-parity.yml/badge.svg)](https://github.com/Mattakushi432/PromptAtlas/actions/workflows/check-parity.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Prompts](https://img.shields.io/badge/prompts-196-informational)](docs/roadmap.md)
+[![Prompts](https://img.shields.io/badge/prompts-198-informational)](docs/roadmap.md)
 
 An open-source library of prompts, patterns, and techniques for modern AI models — bilingual, English and Ukrainian, and nothing but a git repository. No website, no app: browse it directly on GitHub, `git clone` it, or grab a raw file straight into your AI tool of choice.
 
-**Stats:** 196 prompts · 13 categories, each targeting 500 distinct prompts, all 13 now with real content · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress. Coding & Development — 141/500.
+**Stats:** 198 prompts · 13 categories, each targeting 500 distinct prompts, all 13 now with real content · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress. Coding & Development — 141/500.
 
 ## Categories
 
@@ -36,6 +36,7 @@ Every category now has a start, but most are still far from their 500-prompt tar
 
 ## Recently added
 
+- 2 more prompts to `career-and-hr` (en/uk) — difficult feedback conversation scripting, and LinkedIn profile rewriting from a resume. Backlog refilled with 10 new ideas; issues #9-#11 remain open for contributors.
 - 12 more `coding` prompts (en/uk) — mobile deep-link routing validation, feature-flag sprawl auditing, idempotent webhook consumption, database index bloat auditing, A/B test sample-size sanity checking, API response compression strategy, Terraform state recovery planning, offline-conflict UX design, scheduled-job timezone correctness, GraphQL query-cost design, client-side form persistence, and multi-region deployment consistency. Clears the coding backlog — 141/500.
 - **Milestone: all 13 categories now have content.** Seeded `business-and-strategy`, `education-and-learning`, `productivity-and-personal`, `data-and-analysis`, `research-and-academic`, `creative-and-visual`, `voice-and-audio`, and `social-media` (4 prompts each, en/uk) — the last of the previously-empty categories. See [`docs/roadmap.md`](docs/roadmap.md) for the full breakdown.
 - 7 prompts to launch the new `career-and-hr` category (en/uk) — resume bullet rewriting, mock interview practice, performance review drafting, 30-60-90 day onboarding plans, compensation rationale writing, career path exploration, and exit interview tooling.
@@ -66,7 +67,7 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 Відкрита бібліотека промптів, патернів і технік для сучасних AI-моделей — двомовна, англійська та українська, і не більше ніж git-репозиторій. Жодного сайту, жодного застосунку: переглядайте прямо на GitHub, робіть `git clone` або беріть raw-файл напряму у свій AI-інструмент.
 
-**Статистика:** 196 промптів · 13 категорій, кожна з ціллю 500 унікальних промптів, усі 13 тепер із реальним контентом · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md). Кодинг та розробка — 141/500.
+**Статистика:** 198 промптів · 13 категорій, кожна з ціллю 500 унікальних промптів, усі 13 тепер із реальним контентом · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md). Кодинг та розробка — 141/500.
 
 ## Категорії
 
@@ -96,6 +97,7 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 ## Нещодавно додано
 
+- Ще 2 промпти для `career-and-hr` (en/uk) — сценарій складної розмови з фідбеком та переписування профілю LinkedIn з резюме. Беклог поповнено 10 новими ідеями; issue #9-#11 лишаються відкритими для контриб'юторів.
 - Ще 12 промптів `coding` (en/uk) — валідація роутингу мобільних deep link, аудит розростання feature flags, огляд ідемпотентності споживача вебхуків, аудит розростання індексів БД, перевірка адекватності розміру вибірки A/B тестів, стратегія стиснення відповідей API, планування відновлення стану Terraform, дизайн UX офлайн-конфліктів, коректність часових поясів запланованих задач, дизайн вартості GraphQL-запитів, збереження стану форм на клієнті, узгодженість мультирегіонального деплою. Закриває беклог coding — 141/500.
 - **Віха: усі 13 категорій тепер мають контент.** Заповнили `business-and-strategy`, `education-and-learning`, `productivity-and-personal`, `data-and-analysis`, `research-and-academic`, `creative-and-visual`, `voice-and-audio` та `social-media` (по 4 промпти, en/uk) — останні з раніше порожніх категорій. Повний розподіл — у [`docs/roadmap.md`](docs/roadmap.md).
 - 7 промптів для запуску нової категорії `career-and-hr` (en/uk) — переписування пунктів резюме, практика тренувальних співбесід, чернетки перформанс-рев'ю, плани онбордингу 30-60-90 днів, обґрунтування компенсації, дослідження кар'єрних шляхів та інструменти екзит-інтерв'ю.
