@@ -6,7 +6,7 @@ Tracks progress toward the 500-distinct-prompt-per-category floor defined in `CU
 
 | Category | Target | Stable | Draft | Backlog ideas ready to draft |
 |---|---|---|---|---|
-| [coding](coverage-matrix/coding.md) | 500 | 93 | 0 | 8 |
+| [coding](coverage-matrix/coding.md) | 500 | 129 | 0 | 12 |
 | [writing-and-content](coverage-matrix/writing-and-content.md) | 500 | 0 | 0 | 12 |
 | [marketing-and-sales](coverage-matrix/marketing-and-sales.md) | 500 | 0 | 0 | 12 |
 | [business-and-strategy](coverage-matrix/business-and-strategy.md) | 500 | 0 | 0 | 12 |
@@ -20,9 +20,11 @@ Tracks progress toward the 500-distinct-prompt-per-category floor defined in `CU
 | [career-and-hr](coverage-matrix/career-and-hr.md) | 500 | 0 | 0 | 12 |
 | [social-media](coverage-matrix/social-media.md) | 500 | 0 | 0 | 12 |
 
-**Total: 96 stable, 0 draft, out of a 6,500-prompt floor across all categories.**
+**Total: 132 stable, 0 draft, out of a 6,500-prompt floor across all categories.**
 
 ## Notes
+
+- `coding` is being built out toward its 500 target across multiple sessions per `CURATOR_PROMPT.md` §6.4 (realistic batches of ~10-25, never rushed). At the current pace (~12 rubric-passing, distinctiveness-checked pairs per session), reaching 500 is a multi-session effort spanning roughly 30+ more sessions — sourcing genuinely distinct ideas gets harder, not easier, as the easy matrix cells fill in, so later sessions may ship smaller batches or flag specific sub-areas as near their honest ceiling per §6.4.
 
 - Every category's coverage-matrix backlog currently holds a starter set of 12 ideas (below the ~20 refill threshold) — the matrices themselves (dimensions to cross) are the durable artifact; the specific title lists are meant to be expanded during real drafting sessions per `CURATOR_PROMPT.md` §6.1/§6.4, not filled to 20+ speculatively in one pass.
 - No category has been assessed as "at its honest ceiling" yet (per §6.4) — that determination only applies after a category's matrix has actually been worked through, not on day one.
