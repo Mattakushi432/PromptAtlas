@@ -45,6 +45,9 @@ diagrams, documentation, explain, readme
 ## Writing & Content
 blog, brand-voice, content-creation, copywriting, editing, email, microcopy, sales-outreach, tone, ux-writing
 
+## Marketing & Sales
+ad-copy, case-studies, conversion, icp, landing-pages, marketing-strategy, objection-handling, paid-ads, personalization, positioning, sales, sales-enablement, seo
+
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request
 
