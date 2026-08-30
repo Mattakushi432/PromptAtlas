@@ -26,6 +26,10 @@ See [`docs/taxonomy.md`](docs/taxonomy.md) for definitions and [`docs/roadmap.md
 
 Category folders appear under both `en/<slug>/` and `uk/<slug>/` once they hold real content.
 
+## Contributors wanted
+
+11 of the 13 categories are still empty or nearly so — that's the fastest way to help right now. We've opened a batch of [`good-first-contribution`](https://github.com/Mattakushi432/PromptAtlas/issues?q=is%3Aissue+is%3Aopen+label%3Agood-first-contribution) issues, each a vetted backlog idea (pre-checked for distinctiveness) ready to draft in both languages. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the template, the 8-dimension quality rubric, and the PR process.
+
 ## Recently added
 
 - 12 more `coding` prompts (en/uk) — replica-lag read routing, mobile release rollback, component-library breaking changes, CI cost/duration auditing, job queue backlog diagnosis, pagination cursor design, secrets rotation readiness, bundle splitting, backup/restore drills, SDK pinning policy, monorepo build-graph bottlenecks, and retry-storm prevention.
@@ -81,6 +85,10 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 | Соціальні мережі | `social-media` |
 
 Папка категорії з'являється і в `en/<slug>/`, і в `uk/<slug>/`, щойно в ній є реальний контент.
+
+## Шукаємо контриб'юторів
+
+11 із 13 категорій ще порожні або майже порожні — це найшвидший спосіб зараз допомогти. Ми відкрили пакет issue з міткою [`good-first-contribution`](https://github.com/Mattakushi432/PromptAtlas/issues?q=is%3Aissue+is%3Aopen+label%3Agood-first-contribution) — кожна це перевірена ідея з бэклогу (вже пройшла перевірку на дистинктивність), готова до написання двома мовами. Шаблон, 8-вимірна рубрика якості та процес PR — у [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Нещодавно додано
 
