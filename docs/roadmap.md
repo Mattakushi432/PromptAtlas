@@ -6,7 +6,7 @@ Tracks progress toward the 500-distinct-prompt-per-category floor defined in `CU
 
 | Category | Target | Stable | Draft | Backlog ideas ready to draft |
 |---|---|---|---|---|
-| [coding](coverage-matrix/coding.md) | 500 | 81 | 0 | 8 |
+| [coding](coverage-matrix/coding.md) | 500 | 93 | 0 | 8 |
 | [writing-and-content](coverage-matrix/writing-and-content.md) | 500 | 0 | 0 | 12 |
 | [marketing-and-sales](coverage-matrix/marketing-and-sales.md) | 500 | 0 | 0 | 12 |
 | [business-and-strategy](coverage-matrix/business-and-strategy.md) | 500 | 0 | 0 | 12 |
@@ -20,7 +20,7 @@ Tracks progress toward the 500-distinct-prompt-per-category floor defined in `CU
 | [career-and-hr](coverage-matrix/career-and-hr.md) | 500 | 0 | 0 | 12 |
 | [social-media](coverage-matrix/social-media.md) | 500 | 0 | 0 | 12 |
 
-**Total: 84 stable, 0 draft, out of a 6,500-prompt floor across all categories.**
+**Total: 96 stable, 0 draft, out of a 6,500-prompt floor across all categories.**
 
 ## Notes
 
