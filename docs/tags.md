@@ -69,6 +69,9 @@ abstract, academic-writing, literature-review, peer-review, research, research-d
 ## Creative & Visual
 character-design, consistency, illustration, photography, product-design, product-mockups, style-transfer, ui-mockups
 
+## Voice & Audio
+audio, podcast, scriptwriting, sound-design, transcription, voiceover
+
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request
 

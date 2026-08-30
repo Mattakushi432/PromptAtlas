@@ -15,7 +15,7 @@ Tracks progress toward the 500-distinct-prompt-per-category floor defined in `CU
 | [data-and-analysis](coverage-matrix/data-and-analysis.md) | 500 | 4 | 0 | 8 |
 | [research-and-academic](coverage-matrix/research-and-academic.md) | 500 | 4 | 0 | 8 |
 | [creative-and-visual](coverage-matrix/creative-and-visual.md) | 500 | 4 | 0 | 8 |
-| [voice-and-audio](coverage-matrix/voice-and-audio.md) | 500 | 0 | 0 | 12 |
+| [voice-and-audio](coverage-matrix/voice-and-audio.md) | 500 | 4 | 0 | 8 |
 | [agents-and-automation](coverage-matrix/agents-and-automation.md) | 500 | 3 | 0 | 9 |
 | [career-and-hr](coverage-matrix/career-and-hr.md) | 500 | 7 | 0 | 5 |
 | [social-media](coverage-matrix/social-media.md) | 500 | 0 | 0 | 12 |
