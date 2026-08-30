@@ -42,6 +42,9 @@ agent-design, ai-agents, code-generation, multi-agent-workflows, prompt-engineer
 ## Documentation & Communication
 diagrams, documentation, explain, readme
 
+## Writing & Content
+blog, brand-voice, content-creation, copywriting, editing, email, microcopy, sales-outreach, tone, ux-writing
+
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request
 

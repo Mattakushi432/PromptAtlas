@@ -7,7 +7,7 @@ Tracks progress toward the 500-distinct-prompt-per-category floor defined in `CU
 | Category | Target | Stable | Draft | Backlog ideas ready to draft |
 |---|---|---|---|---|
 | [coding](coverage-matrix/coding.md) | 500 | 129 | 0 | 12 |
-| [writing-and-content](coverage-matrix/writing-and-content.md) | 500 | 0 | 0 | 12 |
+| [writing-and-content](coverage-matrix/writing-and-content.md) | 500 | 6 | 0 | 6 |
 | [marketing-and-sales](coverage-matrix/marketing-and-sales.md) | 500 | 0 | 0 | 12 |
 | [business-and-strategy](coverage-matrix/business-and-strategy.md) | 500 | 0 | 0 | 12 |
 | [education-and-learning](coverage-matrix/education-and-learning.md) | 500 | 0 | 0 | 12 |
@@ -20,11 +20,13 @@ Tracks progress toward the 500-distinct-prompt-per-category floor defined in `CU
 | [career-and-hr](coverage-matrix/career-and-hr.md) | 500 | 0 | 0 | 12 |
 | [social-media](coverage-matrix/social-media.md) | 500 | 0 | 0 | 12 |
 
-**Total: 132 stable, 0 draft, out of a 6,500-prompt floor across all categories.**
+**Total: 138 stable, 0 draft, out of a 6,500-prompt floor across all categories.**
 
 ## Notes
 
 - `coding` is being built out toward its 500 target across multiple sessions per `CURATOR_PROMPT.md` §6.4 (realistic batches of ~10-25, never rushed). At the current pace (~12 rubric-passing, distinctiveness-checked pairs per session), reaching 500 is a multi-session effort spanning roughly 30+ more sessions — sourcing genuinely distinct ideas gets harder, not easier, as the easy matrix cells fill in, so later sessions may ship smaller batches or flag specific sub-areas as near their honest ceiling per §6.4.
 
-- Every category's coverage-matrix backlog currently holds a starter set of 12 ideas (below the ~20 refill threshold) — the matrices themselves (dimensions to cross) are the durable artifact; the specific title lists are meant to be expanded during real drafting sessions per `CURATOR_PROMPT.md` §6.1/§6.4, not filled to 20+ speculatively in one pass.
+- **`writing-and-content` was seeded 2026-08-30**: 6 of the original 12 backlog ideas were drafted through the full pipeline (both languages, rubric self-scored, `status: stable`); the other 6 were left as backlog rather than rushed, and 3 of those 6 are now open as `good-first-contribution` community invite issues (#6, #7, #8). Its backlog (6 ideas) is now below the ~20 refill threshold — refill it with new matrix-derived ideas next session before drawing it down further, per `CURATOR_PROMPT.md` §6.1/§6.3.
+- `career-and-hr` and `marketing-and-sales` remain unseeded (0/500) — 3 `career-and-hr` backlog ideas are open as community invite issues (#9, #10, #11) but none have been drafted by the curator yet; both are queued as the next priority per the "seed empty categories" priority in `CURATOR_PROMPT.md` §1.
+- Every other category's coverage-matrix backlog still holds its starter set of 12 ideas (below the ~20 refill threshold) — the matrices themselves (dimensions to cross) are the durable artifact; the specific title lists are meant to be expanded during real drafting sessions per `CURATOR_PROMPT.md` §6.1/§6.4, not filled to 20+ speculatively in one pass.
 - No category has been assessed as "at its honest ceiling" yet (per §6.4) — that determination only applies after a category's matrix has actually been worked through, not on day one.

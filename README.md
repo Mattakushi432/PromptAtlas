@@ -2,7 +2,7 @@
 
 An open-source library of prompts, patterns, and techniques for modern AI models — bilingual, English and Ukrainian, and nothing but a git repository. No website, no app: browse it directly on GitHub, `git clone` it, or grab a raw file straight into your AI tool of choice.
 
-**Stats:** 132 prompts · 13 categories, each targeting 500 distinct prompts · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress. Coding & Development — 129/500.
+**Stats:** 138 prompts · 13 categories, each targeting 500 distinct prompts · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress. Coding & Development — 129/500. Writing & Content — 6/500.
 
 ## Categories
 
@@ -32,10 +32,10 @@ Category folders appear under both `en/<slug>/` and `uk/<slug>/` once they hold 
 
 ## Recently added
 
+- 6 prompts to launch the new `writing-and-content` category (en/uk) — outline-to-draft blog expansion, ruthless line editing, tone adaptation, cold email sequence drafting, non-native English polishing, and UX microcopy review.
 - 12 more `coding` prompts (en/uk) — replica-lag read routing, mobile release rollback, component-library breaking changes, CI cost/duration auditing, job queue backlog diagnosis, pagination cursor design, secrets rotation readiness, bundle splitting, backup/restore drills, SDK pinning policy, monorepo build-graph bottlenecks, and retry-storm prevention.
 - 12 more `coding` prompts (en/uk) — event schema evolution, review-turnaround diagnosis, load-test scenario design, feature deprecation planning, GraphQL resolver performance, serverless cold-start diagnosis, DB connection pool sizing, test-data seeding, cross-team API impact mapping, log volume cost auditing, error-boundary coverage, and synthetic monitoring design.
 - 12 more `coding` prompts (en/uk) — local env bootstrap, idempotency key design, multi-tenant isolation review, A/B test instrumentation review, third-party API risk assessment, batch job retry auditing, release notes translation, junior review-feedback interpretation, webhook delivery reliability, i18n readiness, dependency upgrade impact, and stakeholder architecture briefings. See [`docs/coverage-matrix/coding.md`](docs/coverage-matrix/coding.md) for the full shipped list.
-- 12 new `coding` prompts (en/uk) — API contract consistency, bug repro narrowing, migration lock-risk auditing, unfamiliar-module explaining, mobile perf trace interpretation, IaC drift detection, threat-modeling kickoff, cross-language idiom mapping, feature-flag rollout planning, rate-limiting design, tech-debt prioritization, and concurrency bug hunting.
 
 Full history lives in [`CHANGELOG.md`](CHANGELOG.md) — this section keeps only the most recent entries so it doesn't grow unbounded.
 
@@ -62,7 +62,7 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 Відкрита бібліотека промптів, патернів і технік для сучасних AI-моделей — двомовна, англійська та українська, і не більше ніж git-репозиторій. Жодного сайту, жодного застосунку: переглядайте прямо на GitHub, робіть `git clone` або беріть raw-файл напряму у свій AI-інструмент.
 
-**Статистика:** 132 промпти · 13 категорій, кожна з ціллю 500 унікальних промптів · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md). Кодинг та розробка — 129/500.
+**Статистика:** 138 промптів · 13 категорій, кожна з ціллю 500 унікальних промптів · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md). Кодинг та розробка — 129/500. Письмо та контент — 6/500.
 
 ## Категорії
 
@@ -92,10 +92,10 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 ## Нещодавно додано
 
+- 6 промптів для запуску нової категорії `writing-and-content` (en/uk) — розгортання плану в чернетку блогу, безжальне редагування рядків, адаптація тону, укладання послідовності холодних листів, шліфування англійської для не носіїв мови та рев'ю UX-мікротекстів.
 - Ще 12 промптів `coding` (en/uk) — маршрутизація читання з урахуванням лагу реплік, відкат релізу мобільного застосунку, breaking changes бібліотеки компонентів, аудит вартості/тривалості CI, діагностика беклогу черги задач, дизайн курсора пагінації, готовність до ротації секретів, розбиття бандла, навчання backup/restore, політика пінінгу SDK, вузькі місця графа збірки монорепо та запобігання штормам повторів.
 - Ще 12 промптів `coding` (en/uk) — еволюція схеми подій, діагностика швидкості рев'ю, дизайн навантажувальних тестів, планування депрекейшену фіч, продуктивність GraphQL-резолверів, діагностика холодного старту serverless, підбір пулу з'єднань БД, сідінг тестових даних, мапування впливу на споживачів API, аудит вартості логів, покриття error boundary та дизайн синтетичного моніторингу.
 - Ще 12 промптів `coding` (en/uk) — бутстрап локального середовища, дизайн ключів ідемпотентності, рев'ю ізоляції multi-tenant, рев'ю інструментації A/B-тестів, оцінка ризику сторонніх API, аудит повторів batch-джоб, переклад реліз-нотаток, тлумачення фідбеку рев'ю для джунів, надійність доставки вебхуків, готовність до i18n, оцінка впливу оновлення залежностей та брифінги архітектурних рішень для стейкхолдерів. Повний список — у [`docs/coverage-matrix/coding.md`](docs/coverage-matrix/coding.md).
-- 12 нових промптів `coding` (en/uk) — узгодженість API-контракту, звуження баг-репортів, аудит ризику блокувань при міграціях, пояснення незнайомих модулів, інтерпретація мобільних перф-трейсів, виявлення дрейфу IaC, старт моделювання загроз, зіставлення ідіом між мовами, планування рол-ауту через feature flag, дизайн rate limiting, пріоритизація техборгу та полювання на баги конкурентності.
 
 Повна історія — у [`CHANGELOG.md`](CHANGELOG.md); цей розділ навмисно містить лише останні записи, щоб не розростатися безмежно.
 
