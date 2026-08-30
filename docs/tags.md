@@ -51,6 +51,9 @@ ad-copy, case-studies, conversion, icp, landing-pages, marketing-strategy, objec
 ## Career & HR
 career, career-pathing, coaching, compensation, exit-interview, hr, management, performance-review, resume
 
+## Business & Strategy
+business-model, competitive-analysis, fundraising, investor-relations, market-research, risk-management, strategy
+
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request
 

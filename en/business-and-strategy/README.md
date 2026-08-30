@@ -1,0 +1,10 @@
+# business-and-strategy
+
+_4 prompt(s) — auto-generated. Run `node scripts/generate-index.js business-and-strategy` after adding, removing, or editing a prompt in this folder; do not hand-edit._
+
+| id | Title | Difficulty | Description |
+|---|---|---|---|
+| [`business-model-canvas-drafter`](./business-model-canvas-drafter.md) | Business Model Canvas Drafter | intermediate | Turns a founder's rough notes about a business idea into a structured Business Model Canvas (the standard 9-block framework: customer segments, value propositions, channels, customer relationships, revenue streams, key resources, key activities, key partnerships, cost structure) — organizes and pressure-tests what's already implied, not a generator of business ideas from nothing. |
+| [`competitive-landscape-synthesizer`](./competitive-landscape-synthesizer.md) | Competitive Landscape Synthesizer | intermediate | Organizes raw research notes about several competitors into a structured comparison (positioning, strengths, weaknesses, likely strategic direction) and surfaces the actual competitive gaps — a synthesis tool for research already gathered, not a live web-research tool: it works from what you feed it, and says so when a comparison needs more input. |
+| [`investor-update-drafter`](./investor-update-drafter.md) | Investor Update Drafter | intermediate | Drafts a regular investor update (metrics, wins, challenges, asks) from a founder's rough notes — a drafting tool that organizes real information into the standard investor-update shape, distinct from a pitch deck: this is ongoing-relationship communication, honest about both good and bad news, not a persuasion document. |
+| [`risk-register-builder`](./risk-register-builder.md) | Risk Register Builder | intermediate | Builds a structured risk register (risk description, likelihood, impact, mitigation, owner) from a plan or project description — surfaces risks the plan itself implies, distinct from a generic risk checklist: it reasons from the specific plan given, not a boilerplate list of common business risks. |
