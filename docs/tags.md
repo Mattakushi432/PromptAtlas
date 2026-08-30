@@ -57,6 +57,9 @@ business-model, competitive-analysis, fundraising, investor-relations, market-re
 ## Education & Learning
 education, lesson-planning, quiz, study-techniques, tutoring
 
+## Productivity & Personal
+delegation, meeting-management, productivity, task-planning
+
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request
 

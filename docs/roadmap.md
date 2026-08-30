@@ -11,7 +11,7 @@ Tracks progress toward the 500-distinct-prompt-per-category floor defined in `CU
 | [marketing-and-sales](coverage-matrix/marketing-and-sales.md) | 500 | 7 | 0 | 5 |
 | [business-and-strategy](coverage-matrix/business-and-strategy.md) | 500 | 4 | 0 | 8 |
 | [education-and-learning](coverage-matrix/education-and-learning.md) | 500 | 4 | 0 | 8 |
-| [productivity-and-personal](coverage-matrix/productivity-and-personal.md) | 500 | 0 | 0 | 12 |
+| [productivity-and-personal](coverage-matrix/productivity-and-personal.md) | 500 | 4 | 0 | 8 |
 | [data-and-analysis](coverage-matrix/data-and-analysis.md) | 500 | 0 | 0 | 12 |
 | [research-and-academic](coverage-matrix/research-and-academic.md) | 500 | 0 | 0 | 12 |
 | [creative-and-visual](coverage-matrix/creative-and-visual.md) | 500 | 0 | 0 | 12 |
