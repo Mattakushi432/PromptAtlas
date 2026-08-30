@@ -3,12 +3,12 @@ id: agent-task-splitter
 title: Agent Task Splitter
 category: coding
 tags: [ai-agents, task-planning, multi-agent-workflows]
-target_models: [Claude, GPT-4o, Gemini]
+target_models: [Claude Code, Cursor, GitHub Copilot]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Description
@@ -72,4 +72,5 @@ Definition of done: a test demonstrating a new matching result triggers a notifi
 - If using literal parallel agents, explicitly ask for a suggested file-ownership map (which subtask "owns" which files) as an extra collision-avoidance measure beyond the dependency analysis alone.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Narrowed `target_models` to the actual agentic coding tools this prompt targets (Claude Code, Cursor, GitHub Copilot) instead of the generic chat-model list.
 - 1.0.0 (2026-08-29): Initial version.

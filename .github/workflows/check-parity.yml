@@ -14,3 +14,11 @@ jobs:
         with:
           node-version: 20
       - run: node scripts/check-parity.js
+      - run: node scripts/lint-frontmatter.js
+      - name: Check category indexes are up to date
+        run: |
+          node scripts/generate-index.js
+          git diff --exit-code -- '*/README.md' || {
+            echo "::error::A category README.md index is stale — run 'node scripts/generate-index.js' and commit the result.";
+            exit 1;
+          }

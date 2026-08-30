@@ -2,10 +2,10 @@
 id: backup-restore-drill-planner
 title: Планувальник навчань відновлення з резервної копії
 category: coding
-tags: [database, disaster-recovery, operations]
+tags: [databases, disaster-recovery, operations]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
 last_updated: 2026-08-30
@@ -62,4 +62,5 @@ last_updated: 2026-08-30
 - Плануй періодичність навчань на основі того, як часто змінюється схема, а не лише на фіксованому календарному інтервалі — система, що щойно пройшла через кілька міграцій, — кращий кандидат на свіже навчання, ніж пропонував би сам календар.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Нормалізовано тег `database` до канонічного `databases` (див. `docs/tags.md`).
 - 1.0.0 (2026-08-30): Початкова версія.

@@ -2,10 +2,10 @@
 id: db-read-replica-lag-advisor
 title: Радник з лагу read-реплік бази даних
 category: coding
-tags: [database, backend, scalability]
+tags: [databases, backend, scalability]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
 last_updated: 2026-08-30
@@ -59,4 +59,5 @@ last_updated: 2026-08-30
 - Для системи, де лаг репліки стабільно дуже низький і стабільний (не сплесковий), коротше фіксоване вікно прив'язки стає розумним спрощенням — явно скажи, якщо лаг стабільний, а не сплесковий, оскільки рекомендована стратегія має відрізнятись.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Нормалізовано тег `database` до канонічного `databases` (див. `docs/tags.md`).
 - 1.0.0 (2026-08-30): Початкова версія.

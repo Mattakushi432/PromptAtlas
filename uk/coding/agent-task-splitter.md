@@ -3,12 +3,12 @@ id: agent-task-splitter
 title: Розділювач завдань для агентів
 category: coding
 tags: [ai-agents, task-planning, multi-agent-workflows]
-target_models: [Claude, GPT-4o, Gemini]
+target_models: [Claude Code, Cursor, GitHub Copilot]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Опис
@@ -72,4 +72,5 @@ last_updated: 2026-08-29
 - Якщо використовуєш буквально паралельних агентів, явно попроси запропоновану мапу володіння файлами (яке підзавдання "володіє" якими файлами) як додатковий захід уникнення колізій понад сам аналіз залежностей.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Уточнено `target_models` до реальних агентних інструментів кодування, для яких призначений цей промпт (Claude Code, Cursor, GitHub Copilot), замість загального списку чат-моделей.
 - 1.0.0 (2026-08-29): Початкова версія.

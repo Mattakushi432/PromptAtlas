@@ -14,7 +14,7 @@ Thanks for helping grow the library. PromptAtlas stays a plain git repository �
 
 1. Fork the repo and create a branch.
 2. Copy the template below into `en/<category>/<your-prompt-id>.md` and `uk/<category>/<your-prompt-id>.md`.
-3. Fill in every section — a prompt without a worked `## Example` won't pass review.
+3. Fill in every section — a prompt without a worked `## Example` won't pass review. For `target_models`: use the general chat-model list only when the prompt is genuinely model-agnostic; specify actual target tools (e.g. `[Claude Code, Cursor, GitHub Copilot]`) when the prompt is specific to an agentic/IDE coding tool, or (once populated) to a specific image/video/voice generator.
 4. Self-score your prompt against the [Quality Rubric](#quality-rubric) below. If any dimension is under 3, or the average is under 4.0, set `status: draft` instead of `stable` and say so in your PR description.
 5. Open a PR. The PR template will ask you to confirm both languages are present and check them against the rubric.
 

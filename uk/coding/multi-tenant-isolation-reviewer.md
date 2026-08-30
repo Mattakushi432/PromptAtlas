@@ -2,10 +2,10 @@
 id: multi-tenant-isolation-reviewer
 title: Рев'ю ізоляції даних у multi-tenant застосунку
 category: coding
-tags: [database, multi-tenancy, security]
+tags: [databases, multi-tenancy, security]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
 last_updated: 2026-08-30
@@ -63,4 +63,5 @@ last_updated: 2026-08-30
 - Для моделі база-на-тенант передай саме middleware/код маршрутизації підключення, оскільки саме там концентрується реальний ризик, а не в окремих запитах.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Нормалізовано тег `database` до канонічного `databases` (див. `docs/tags.md`).
 - 1.0.0 (2026-08-30): Початкова версія.

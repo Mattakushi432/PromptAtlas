@@ -2,13 +2,13 @@
 id: normalization-advisor
 title: Normalization Advisor
 category: coding
-tags: [database, normalization, data-modeling]
+tags: [databases, normalization, data-modeling]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: beginner
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Description
@@ -58,4 +58,5 @@ Caveat: make sure this is actually the intended semantics (a support agent might
 - If evaluating an entire schema rather than one field, run this per relationship rather than trying to get one holistic verdict — normalization decisions are local, not global.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Normalized tag from `database` to canonical `databases` (see `docs/tags.md`).
 - 1.0.0 (2026-08-29): Initial version.

@@ -2,13 +2,13 @@
 id: schema-designer-from-requirements
 title: Schema Designer from Requirements
 category: coding
-tags: [database, schema-design, data-modeling]
+tags: [databases, schema-design, data-modeling]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: intermediate
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Description
@@ -76,4 +76,5 @@ Output format: Markdown with a table per entity (columns, types, constraints) in
 - Once the schema is approved, feed it into `safe-migration-script-writer` to generate the actual migration rather than hand-writing DDL from this draft.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Normalized tag from `database` to canonical `databases` (see `docs/tags.md`).
 - 1.0.0 (2026-08-29): Initial version.

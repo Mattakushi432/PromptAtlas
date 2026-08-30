@@ -3,12 +3,12 @@ id: ai-coding-prompt-writer
 title: Укладач промптів для AI-кодинг агентів
 category: coding
 tags: [ai-agents, prompt-engineering, developer-productivity]
-target_models: [Claude, GPT-4o, Gemini]
+target_models: [Claude Code, Cursor, GitHub Copilot]
 difficulty: intermediate
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Опис
@@ -62,4 +62,5 @@ last_updated: 2026-08-29
 - Веди невелику особисту бібліотеку промптів, що добре спрацювали для повторюваних типів завдань (додати ендпойнт, додати міграцію, додати тест), і перевикористовуй/адаптуй їх замість того щоб починати з нуля щоразу.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Уточнено `target_models` до реальних агентних інструментів кодування, для яких призначений цей промпт (Claude Code, Cursor, GitHub Copilot), замість загального списку чат-моделей.
 - 1.0.0 (2026-08-29): Початкова версія.

@@ -2,10 +2,10 @@
 id: migration-lock-risk-auditor
 title: Аудит ризику блокувань і простою при міграції
 category: coding
-tags: [database, migrations, downtime, safety]
+tags: [databases, migrations, downtime, safety]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
 last_updated: 2026-08-30
@@ -68,4 +68,5 @@ last_updated: 2026-08-30
 - Передай виведення `EXPLAIN` чи логи таймінгу міграції самого движка як додатковий `{{TABLE_CONTEXT}}`, якщо міграція вже відпрацювала і ти робиш постмортем, а не рев'ю перед мерджем.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Нормалізовано тег `database` до канонічного `databases` (див. `docs/tags.md`).
 - 1.0.0 (2026-08-30): Початкова версія.

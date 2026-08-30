@@ -2,13 +2,13 @@
 id: normalization-advisor
 title: Радник з нормалізації
 category: coding
-tags: [database, normalization, data-modeling]
+tags: [databases, normalization, data-modeling]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: beginner
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Опис
@@ -58,4 +58,5 @@ last_updated: 2026-08-29
 - Якщо оцінюєш цілу схему, а не одне поле, запускай це по кожному зв'язку окремо, а не намагайся отримати один цілісний вердикт — рішення нормалізації локальні, не глобальні.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Нормалізовано тег `database` до канонічного `databases` (див. `docs/tags.md`).
 - 1.0.0 (2026-08-29): Початкова версія.

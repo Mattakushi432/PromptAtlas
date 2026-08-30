@@ -10,7 +10,9 @@ PromptAtlas is a bilingual (English/Ukrainian) open-source library of AI prompts
 
 ## Commands
 
-- `node scripts/check-parity.js` — verifies every `en/**/*.md` prompt has a matching `uk/**/*.md` counterpart (and vice versa) with identical frontmatter `id` and `version`. Node stdlib only, no install step. This is exactly what `.github/workflows/check-parity.yml` runs in CI on every push/PR — run it locally before opening a PR. It passes trivially if no prompts exist yet under `en/`/`uk/`.
+- `node scripts/check-parity.js` — verifies every `en/**/*.md` prompt has a matching `uk/**/*.md` counterpart (and vice versa) with identical frontmatter `id` and `version`. Node stdlib only, no install step. Category `README.md` index files (see below) are excluded — they have no frontmatter and aren't prompts. This is exactly what `.github/workflows/check-parity.yml` runs in CI on every push/PR — run it locally before opening a PR. It passes trivially if no prompts exist yet under `en/`/`uk/`.
+- `node scripts/lint-frontmatter.js` — validates every prompt's `difficulty`/`status` values, that `tags` is non-empty and every tag exists in `docs/tags.md`, and that all 7 required body sections are present (English or the documented Ukrainian heading). Also run by CI.
+- `node scripts/generate-index.js [category-slug ...]` — regenerates `en/<category>/README.md` and `uk/<category>/README.md`, a browsable table (id, title, difficulty, description) of every prompt in that category. Run with no arguments to regenerate every category. CI fails if a committed index is stale relative to the source files — run this and commit the result after adding, removing, or editing a prompt.
 
 ## Content architecture
 

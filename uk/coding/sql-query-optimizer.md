@@ -2,13 +2,13 @@
 id: sql-query-optimizer
 title: Оптимізатор SQL-запитів
 category: coding
-tags: [database, sql, performance]
+tags: [databases, sql, performance]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Опис
@@ -69,4 +69,5 @@ SELECT * FROM orders WHERE created_at >= '2026-01-01' AND created_at < '2027-01-
 - Для запиту, повільного через поганий порядок join'у, попроси також запропонувати хінт запиту чи реструктуризацію (напр., CTE, що матеріалізує проміжний результат), якщо планувальнику не можна довіряти хороший вибір.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Нормалізовано тег `database` до канонічного `databases` (див. `docs/tags.md`).
 - 1.0.0 (2026-08-29): Початкова версія.

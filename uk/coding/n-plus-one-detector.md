@@ -2,13 +2,13 @@
 id: n-plus-one-detector
 title: Детектор N+1
 category: coding
-tags: [database, orm, performance]
+tags: [databases, orm, performance]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Опис
@@ -64,4 +64,5 @@ ORM/фреймворк: {{ORM_FRAMEWORK}}
 - Для шару резолверів GraphQL замість традиційного контролера цей промпт усе одно застосовний до власних викликів ORM резолвера, але також див. «Рев'ювер схем GraphQL» для версії того самого ризику на рівні форми схеми.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Нормалізовано тег `database` до канонічного `databases` (див. `docs/tags.md`).
 - 1.0.0 (2026-08-29): Початкова версія.

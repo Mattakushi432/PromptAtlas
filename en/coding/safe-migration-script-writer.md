@@ -2,13 +2,13 @@
 id: safe-migration-script-writer
 title: Safe Migration Script Writer
 category: coding
-tags: [database, migrations, devops]
+tags: [databases, migrations, devops]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: intermediate
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Description
@@ -66,4 +66,5 @@ ALTER TABLE orders VALIDATE CONSTRAINT orders_status_not_null;
 - Pair with `pre-merge-risk-assessment` for the broader deployment-risk framing once the migration script itself is written.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Normalized tag from `database` to canonical `databases` (see `docs/tags.md`).
 - 1.0.0 (2026-08-29): Initial version.

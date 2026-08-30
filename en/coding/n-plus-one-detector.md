@@ -2,13 +2,13 @@
 id: n-plus-one-detector
 title: N+1 Detector
 category: coding
-tags: [database, orm, performance]
+tags: [databases, orm, performance]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Description
@@ -64,4 +64,5 @@ Fix:
 - For a GraphQL resolver layer instead of a traditional controller, this prompt still applies to the resolver's own ORM calls, but also see `graphql-schema-reviewer` for the schema-shape-level version of the same risk.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Normalized tag from `database` to canonical `databases` (see `docs/tags.md`).
 - 1.0.0 (2026-08-29): Initial version.

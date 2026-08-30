@@ -3,12 +3,12 @@ id: ai-code-output-reviewer
 title: Рев'ювер виводу AI-коду
 category: coding
 tags: [ai-agents, code-review, quality-assurance]
-target_models: [Claude, GPT-4o, Gemini]
+target_models: [Claude Code, Cursor, GitHub Copilot]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: uk
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Опис
@@ -60,4 +60,5 @@ AI-згенерований код: {{CODE}}
 - Поєднуй з фактичним запуском коду/тестів як базовою перевіркою галюцинованих API — реальна помилка виконання остаточна так, як жодна впевненість статичного рев'ю бути не може.
 
 ## Історія змін
+- 1.0.1 (2026-08-30): Уточнено `target_models` до реальних агентних інструментів кодування, для яких призначений цей промпт (Claude Code, Cursor, GitHub Copilot), замість загального списку чат-моделей.
 - 1.0.0 (2026-08-29): Початкова версія.

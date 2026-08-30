@@ -2,10 +2,10 @@
 id: multi-tenant-isolation-reviewer
 title: Multi-Tenant Data Isolation Reviewer
 category: coding
-tags: [database, multi-tenancy, security]
+tags: [databases, multi-tenancy, security]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
 last_updated: 2026-08-30
@@ -63,4 +63,5 @@ Verdict: 1 CRITICAL finding. Do not ship until fixed.
 - For a database-per-tenant model, feed it the connection-routing middleware/code specifically, since that's where the actual risk concentrates rather than in individual queries.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Normalized tag from `database` to canonical `databases` (see `docs/tags.md`).
 - 1.0.0 (2026-08-30): Initial version.

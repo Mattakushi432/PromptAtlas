@@ -2,13 +2,13 @@
 id: sql-query-optimizer
 title: SQL Query Optimizer
 category: coding
-tags: [database, sql, performance]
+tags: [databases, sql, performance]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: advanced
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Description
@@ -69,4 +69,5 @@ SELECT * FROM orders WHERE created_at >= '2026-01-01' AND created_at < '2027-01-
 - For a query that's slow due to a bad join order, ask it to also suggest a query hint or restructuring (e.g., a CTE materializing an intermediate result) if the planner can't be trusted to pick well.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Normalized tag from `database` to canonical `databases` (see `docs/tags.md`).
 - 1.0.0 (2026-08-29): Initial version.

@@ -233,7 +233,7 @@ The root `README.md` must always contain, in both languages (English first, then
 - A one-paragraph pitch: what this is, why a repo instead of a website, who it's for.
 - A live-feeling stats line: total prompts, and a per-category progress line against the 500 target (e.g. Coding & Development — 214/500), updated whenever `docs/roadmap.md` changes.
 - A categorized table of contents linking directly to each category folder.
-- A "Prompt of the Month" or "Recently Added" short list, so returning visitors see it's actively maintained.
+- A "Prompt of the Month" or "Recently Added" short list, so returning visitors see it's actively maintained. Keep this to the **3-5 most recent entries only** — when adding a new one, drop the oldest so the list doesn't grow unbounded; full history always lives in `CHANGELOG.md`, so nothing is lost by trimming.
 - A short "How to use these prompts" section (copy the prompt, fill in the placeholders, paste into your AI of choice).
 - A link to `CONTRIBUTING.md` and an invitation for pull requests.
 - GitHub topics to set on the repo itself (not in the README body): `prompt-engineering`, `chatgpt-prompts`, `claude-prompts`, `ai-prompts`, `ukrainian`, `prompt-library`, `awesome-list`-adjacent terms — these are a major discoverability lever on GitHub search.

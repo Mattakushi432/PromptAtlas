@@ -3,12 +3,12 @@ id: ai-coding-prompt-writer
 title: AI Coding Prompt Writer
 category: coding
 tags: [ai-agents, prompt-engineering, developer-productivity]
-target_models: [Claude, GPT-4o, Gemini]
+target_models: [Claude Code, Cursor, GitHub Copilot]
 difficulty: intermediate
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Description
@@ -62,4 +62,5 @@ Add caching to the `GET /api/users/:id/profile` endpoint in `src/routes/users.ts
 - Keep a small personal library of prompts that worked well for recurring task types (add an endpoint, add a migration, add a test) and reuse/adapt them instead of starting fresh each time.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Narrowed `target_models` to the actual agentic coding tools this prompt targets (Claude Code, Cursor, GitHub Copilot) instead of the generic chat-model list.
 - 1.0.0 (2026-08-29): Initial version.
