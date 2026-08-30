@@ -54,6 +54,9 @@ career, career-pathing, coaching, compensation, exit-interview, hr, management, 
 ## Business & Strategy
 business-model, competitive-analysis, fundraising, investor-relations, market-research, risk-management, strategy
 
+## Education & Learning
+education, lesson-planning, quiz, study-techniques, tutoring
+
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request
 

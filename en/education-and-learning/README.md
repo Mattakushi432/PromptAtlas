@@ -1,0 +1,10 @@
+# education-and-learning
+
+_4 prompt(s) — auto-generated. Run `node scripts/generate-index.js education-and-learning` after adding, removing, or editing a prompt in this folder; do not hand-edit._
+
+| id | Title | Difficulty | Description |
+|---|---|---|---|
+| [`lesson-plan-generator-from-learning-objectives`](./lesson-plan-generator-from-learning-objectives.md) | Lesson Plan Generator from Learning Objectives | intermediate | Turns a set of learning objectives into a structured lesson plan (hook, instruction, guided practice, independent practice, assessment, timing) — a planning tool that works backward from what students should be able to do, not a generic activity generator disconnected from actual objectives. |
+| [`quiz-generator-with-difficulty-tiers`](./quiz-generator-with-difficulty-tiers.md) | Quiz Generator with Difficulty Tiers | beginner | Generates a quiz on a given topic with questions explicitly tiered by difficulty (recall, application, analysis) rather than randomly mixed — a tool for a teacher/trainer who wants a real difficulty progression, not just a pile of questions of inconsistent, unlabeled difficulty. |
+| [`socratic-tutor-for-a-specific-concept`](./socratic-tutor-for-a-specific-concept.md) | Socratic Tutor for a Specific Concept | intermediate | Tutors a learner through a specific concept using guided questions rather than direct explanation — leads them to construct the understanding themselves, distinct from `concept-explainer-at-three-reading-levels` (education-and-learning, still in backlog), which directly explains a concept at different complexity levels rather than drawing the learner's own reasoning out through questions. |
+| [`spaced-repetition-study-plan-builder`](./spaced-repetition-study-plan-builder.md) | Spaced-Repetition Study Plan Builder | intermediate | Builds a spaced-repetition review schedule for a set of study topics ahead of a deadline (exam, certification) — schedules genuine increasing-interval review of each topic, not a generic daily study checklist that treats every topic as equally due every day. |
