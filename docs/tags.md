@@ -10,7 +10,7 @@ Grouped loosely by theme for scanability — a tag can reasonably apply across t
 architecture, distributed-systems, event-driven, infrastructure-as-code, message-queues, messaging, microservices, modularity, monorepo, multi-tenancy, offline-first, serverless, state-management, system-design, technology-selection
 
 ## Backend & APIs
-api, api-design, authentication, authorization, backend, graphql, openapi, pagination, rate-limiting, rest, webhooks
+api, api-design, authentication, authorization, backend, graphql, openapi, pagination, rate-limiting, rest, routing, webhooks
 
 ## Databases & Data
 data-modeling, data-sync, databases, disaster-recovery, migrations, normalization, orm, schema-design, schema-review, seed-data, sql

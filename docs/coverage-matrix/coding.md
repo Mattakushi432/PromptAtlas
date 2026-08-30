@@ -77,6 +77,9 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `pagination-cursor-design-advisor` — backend / plan / beginner — designs a cursor's actual encoding/tie-breaking/stability mechanics, distinct from cross-endpoint pagination-style consistency.
 - `job-queue-backlog-diagnostician` — backend / debug-troubleshoot / intermediate — distinguishes throughput mismatch, poison messages, and stalled consumers as causes of a growing queue backlog.
 - `retry-storm-prevention-advisor` — backend / plan / advanced — designs backoff/jitter to prevent many clients synchronizing retries into a thundering herd.
+- `idempotent-webhook-consumer-reviewer` — backend / review-critique / intermediate — reviews the receiving side of a webhook integration for dedupe/ordering handling, the consumer-side counterpart to `webhook-delivery-reliability-reviewer`'s sender-side focus.
+- `api-response-compression-strategy-advisor` — backend / plan / beginner — advises on compression (gzip/brotli) tradeoffs for a specific API's payload characteristics.
+- `graphql-query-cost-estimation-designer` — backend / plan / advanced — designs a query-cost-scoring scheme to reject expensive queries before execution, distinct from `graphql-resolver-performance-auditor`'s post-hoc resolver review.
 
 ### Database & SQL
 - `sql-query-optimizer` — databases / optimize-refactor / advanced — given a slow query + schema, proposes an optimized version and indexes.
@@ -88,6 +91,7 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `multi-tenant-isolation-reviewer` — databases / review-critique / senior — audits schema/query code for cross-tenant data leakage risk.
 - `db-connection-pool-sizing-advisor` — databases / plan / intermediate — recommends connection pool size/timeouts given app concurrency and DB connection limits.
 - `db-read-replica-lag-advisor` — databases / plan / advanced — classifies which reads are safe against replica lag vs. need read-your-writes routing to primary.
+- `database-index-bloat-auditor` — databases / review-critique / intermediate — identifies unused or redundant indexes adding write overhead without read benefit.
 
 ### Frontend & UI Engineering
 - `accessibility-auditor` — frontend / review-critique / intermediate — audits a UI component for accessibility (a11y) issues.
@@ -99,6 +103,7 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `error-boundary-coverage-reviewer` — frontend / review-critique / intermediate — audits a frontend app for gaps in error-boundary/fallback-UI coverage.
 - `component-library-breaking-change-reviewer` — frontend / review-critique / advanced — assesses a shared component library change's blast radius across consuming teams, including visual-only breaking changes.
 - `bundle-splitting-advisor` — frontend / plan / intermediate — recommends code-splitting/dynamic-import boundaries for an app's route/feature structure.
+- `client-side-form-state-persistence-advisor` — frontend / plan / beginner — advises on saving in-progress form state against accidental navigation/refresh loss.
 
 ### Mobile Development
 - `cross-platform-vs-native-advisor` — mobile / plan / intermediate — recommends cross-platform vs. native given project constraints.
@@ -108,6 +113,8 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `offline-first-sync-designer` — mobile / plan / advanced — designs an offline-first data sync strategy for a mobile app.
 - `mobile-release-rollback-planner` — mobile / plan / intermediate — plans response to a bad staged-rollout app release, accounting for store-specific rollback mechanics distinct from server-side deploys.
 - `mobile-perf-trace-interpreter` — mobile / debug-troubleshoot / intermediate — interprets a profiler trace (frame timings, CPU/GPU) and prioritizes fixes.
+- `mobile-deep-link-routing-validator` — mobile / review-critique / intermediate — audits deep-link/universal-link routes for coverage gaps and unsafe param handling.
+- `mobile-offline-conflict-resolution-ux-advisor` — mobile / plan / advanced — designs the user-facing conflict-resolution experience for `offline-first-sync-designer`'s sync strategy, a UX-layer counterpart to that prompt's data-layer focus.
 
 ### DevOps, CI/CD & Cloud Infrastructure
 - `ci-pipeline-debugger` — DevOps/infra / debug-troubleshoot / intermediate — diagnoses a failing CI pipeline from its log output.
@@ -124,6 +131,9 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 - `ci-pipeline-cost-duration-auditor` — DevOps/infra / optimize-refactor / intermediate — audits a CI config for redundant/uncached/unconditional steps driving up cost and duration, distinct from failure debugging.
 - `monorepo-build-graph-bottleneck-finder` — DevOps/infra / debug-troubleshoot / advanced — identifies package-graph structural bottlenecks (broad fan-out, misconfigured affected-detection) slowing a monorepo's CI.
 - `secrets-rotation-readiness-auditor` — security / review-critique / advanced — audits whether a service can rotate a credential live without downtime.
+- `terraform-state-file-drift-recovery-planner` — DevOps/infra / plan / advanced — plans safely reconciling a corrupted/out-of-sync Terraform state file, distinct from `iac-drift-detector`'s code-vs-reality drift focus.
+- `scheduled-job-timezone-correctness-auditor` — DevOps/infra / review-critique / beginner — audits cron/scheduled-job configs for DST and timezone-handling bugs.
+- `multi-region-deployment-consistency-reviewer` — DevOps/infra / review-critique / advanced — reviews a multi-region deployment for config/data consistency gaps between regions.
 
 ### Security (AppSec)
 - `injection-vulnerability-scanner` — security / review-critique / advanced — scans a code snippet for injection/input-validation vulnerabilities.
@@ -172,22 +182,13 @@ Dimensions crossed to source distinct prompt ideas (`CURATOR_PROMPT.md` §6.1). 
 ### Feature Delivery & Release Safety
 - `feature-flag-rollout-planner` — DevOps/infra / plan / intermediate — designs a staged flag-based rollout with kill-switch conditions for a risky change.
 - `tech-debt-prioritization-matrix` — general / plan / advanced — turns a raw tech-debt list into an ROI-ranked, defensible paydown plan.
+- `feature-flag-sprawl-auditor` — DevOps/infra / review-critique / advanced — flags stale/fully-rolled-out flags safe to delete, focused on code-level dead-flag detection specifically (grep-able flag checks with no remaining variance) rather than overlapping `tech-debt-prioritization-matrix`'s general ranking or `feature-flag-rollout-planner`'s rollout-stage scope.
 
 ### Experimentation & Stakeholder Communication
 - `ab-test-instrumentation-reviewer` — testing / review-critique / intermediate — checks experiment assignment/tracking code for sample-ratio-mismatch and event-firing bugs before launch.
 - `release-notes-translator` — documentation / document / beginner — turns a technical changelog into plain-language release notes for a non-technical audience.
+- `feature-experiment-sample-size-sanity-checker` — testing / review-critique / beginner — checks whether a planned A/B test's traffic and duration can realistically reach statistical significance, a plan-stage counterpart to `ab-test-instrumentation-reviewer`'s code-level focus.
 
 ## Backlog — ideas ready to draft
 
-1. **Mobile Deep Link Routing Validator** — mobile / review-critique / intermediate — audits deep-link/universal-link routes for coverage gaps and unsafe param handling.
-2. **Feature Flag Sprawl Auditor** — DevOps/infra / review-critique / advanced — flags stale/fully-rolled-out flags safe to delete, sharpened this time to focus on code-level dead-flag detection specifically (grep-able flag checks with no remaining variance) rather than overlapping `tech-debt-prioritization-matrix`'s general ranking or `feature-flag-rollout-planner`'s rollout-stage scope.
-3. **Idempotent Webhook Consumer Reviewer** — backend / review-critique / intermediate — reviews the receiving side of a webhook integration for dedupe/ordering handling, the consumer-side counterpart to `webhook-delivery-reliability-reviewer`'s sender-side focus.
-4. **Database Index Bloat Auditor** — databases / review-critique / intermediate — identifies unused or redundant indexes adding write overhead without read benefit.
-5. **Feature Experiment Sample Size Sanity Checker** — testing / review-critique / beginner — checks whether a planned A/B test's traffic and duration can realistically reach statistical significance, a plan-stage counterpart to `ab-test-instrumentation-reviewer`'s code-level focus.
-6. **API Response Compression Strategy Advisor** — backend / plan / beginner — advises on compression (gzip/brotli) tradeoffs for a specific API's payload characteristics.
-7. **Terraform State File Drift Recovery Planner** — DevOps/infra / plan / advanced — plans safely reconciling a corrupted/out-of-sync Terraform state file, distinct from `iac-drift-detector`'s code-vs-reality drift focus.
-8. **Mobile Offline Conflict Resolution UX Advisor** — mobile / plan / advanced — designs the user-facing conflict-resolution experience for `offline-first-sync-designer`'s sync strategy, a UX-layer counterpart to that prompt's data-layer focus.
-9. **Scheduled Job Timezone Correctness Auditor** — DevOps/infra / review-critique / beginner — audits cron/scheduled-job configs for DST and timezone-handling bugs.
-10. **GraphQL Query Cost Estimation Designer** — backend / plan / advanced — designs a query-cost-scoring scheme to reject expensive queries before execution, distinct from `graphql-resolver-performance-auditor`'s post-hoc resolver review.
-11. **Client-Side Form State Persistence Advisor** — frontend / plan / beginner — advises on saving in-progress form state against accidental navigation/refresh loss.
-12. **Multi-Region Deployment Consistency Reviewer** — DevOps/infra / review-critique / advanced — reviews a multi-region deployment for config/data consistency gaps between regions.
+_Drawn down to 0 this session — refill from the coverage matrix above (§6.1) before the next coding batch, per `CURATOR_PROMPT.md` §6.3's ~20-entry refill threshold._
