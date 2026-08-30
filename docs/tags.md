@@ -66,6 +66,9 @@ data-analysis, data-visualization, eda, statistics
 ## Research & Academic
 abstract, academic-writing, literature-review, peer-review, research, research-design
 
+## Creative & Visual
+character-design, consistency, illustration, photography, product-design, product-mockups, style-transfer, ui-mockups
+
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request
 
