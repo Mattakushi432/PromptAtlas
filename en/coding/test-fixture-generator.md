@@ -5,18 +5,18 @@ category: coding
 tags: [testing, fixtures, mock-data]
 target_models: [Claude, GPT-4o, Gemini]
 difficulty: beginner
-version: 1.0.0
+version: 1.0.1
 status: stable
 language: en
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 ---
 
 ## Description
-Generates realistic mock/fixture data matching a given schema — for tests, seed scripts, or local development — instead of hand-writing sample objects one by one. For a developer who needs plausible data, not a data-generation library setup.
+Generates a handful of realistic mock/fixture data matching a given schema — for one test case or a quick local check — instead of hand-writing sample objects one by one. For a developer who needs plausible data at small scale, not a data-generation library setup. For populating a whole local/demo environment at volume with cross-table relationships intact, see `test-data-seeder-designer` instead.
 
 ## When to use it
 - Writing a test that needs several realistic records (users, orders, products) and hand-authoring each is tedious.
-- Seeding a local dev database with data that looks real enough to catch UI/formatting bugs.
+- Needing a small batch of realistic-looking records for a quick local check, not a fully seeded environment.
 - Needing edge-case fixtures deliberately (empty strings, boundary numbers, unicode names) to stress-test validation logic.
 
 ## The Prompt
@@ -59,4 +59,5 @@ Instructions:
 - Pin down a `{{SPECIAL_REQUIREMENTS}}` set of adversarial inputs (max-length strings, SQL-special characters, emoji) when the goal is fuzzing validation logic rather than realistic seed data.
 
 ## Changelog
+- 1.0.1 (2026-08-30): Narrowed scope to small-batch fixtures to remove overlap with the newer `test-data-seeder-designer`, which now owns whole-environment seeding at volume.
 - 1.0.0 (2026-08-29): Initial version.
