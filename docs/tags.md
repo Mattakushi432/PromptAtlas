@@ -63,6 +63,9 @@ delegation, meeting-management, productivity, task-planning
 ## Data & Analysis
 data-analysis, data-visualization, eda, statistics
 
+## Research & Academic
+abstract, academic-writing, literature-review, peer-review, research, research-design
+
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request
 
