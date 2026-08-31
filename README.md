@@ -2,11 +2,11 @@
 
 [![Check bilingual parity](https://github.com/Mattakushi432/PromptAtlas/actions/workflows/check-parity.yml/badge.svg)](https://github.com/Mattakushi432/PromptAtlas/actions/workflows/check-parity.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Prompts](https://img.shields.io/badge/prompts-275-informational)](docs/roadmap.md)
+[![Prompts](https://img.shields.io/badge/prompts-283-informational)](docs/roadmap.md)
 
 An open-source library of prompts, patterns, and techniques for modern AI models — bilingual, English and Ukrainian, and nothing but a git repository. No website, no app: browse it directly on GitHub, `git clone` it, or grab a raw file straight into your AI tool of choice.
 
-**Stats:** 275 prompts · 13 categories, each targeting 500 distinct prompts, all 13 now with real content · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress. Coding & Development — 153/500.
+**Stats:** 283 prompts · 13 categories, each targeting 500 distinct prompts, all 13 now with real content · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress. Coding & Development — 153/500.
 
 ## Categories
 
@@ -36,11 +36,11 @@ Every category now has a start, but most are still far from their 500-prompt tar
 
 ## Recently added
 
+- **Milestone: every category has now been deepened past its original seed.** `social-media` was the last of the categories still at its 4-prompt floor — 8 more prompts (en/uk): comment response drafting by question type, engagement-bait auditing, LinkedIn thought-leadership drafting, hashtag strategy building, stakeholder analytics summarizing, influencer collab briefs, trend-to-brand-voice adaptation, and community guidelines enforcement templates. Clears the starter backlog, refilled with 12 new ideas — 12/500.
 - 8 more prompts to `voice-and-audio` (en/uk) — TTS pronunciation fix lists, voice consistency checking across long scripts, accessibility audio description writing, podcast show notes and timestamp generation, e-learning narration naturalization, multi-speaker TTS script formatting, ad jingle concept briefs, and podcast guest interview question sets. Clears the starter backlog, refilled with 12 new ideas — 12/500.
 - 8 more prompts to `creative-and-visual` (en/uk) — logo concept direction generation, negative-prompt troubleshooting, isometric icon set design, environment concept-art mood boards, thumbnail A/B-test variant generation, genre-calibrated game asset concepts, short-form video storyboard sequences, and brand mood board kits. Clears the starter backlog, refilled with 12 new ideas — 12/500.
 - 8 more prompts to `research-and-academic` (en/uk) — methodology section critique, paraphrase-vs-plagiarism checking, advisor feedback translation, grant proposal aims-page tightening, plain-language results summarizing, related-work gap finding, conference talk outlining, and statistical reporting style checking. Clears the starter backlog, refilled with 12 new ideas — 12/500.
 - 8 more prompts to `productivity-and-personal` (en/uk) — habit-tracker reflection prompts, personal finance budget sanity-checking, procrastination root-cause diagnosis, inbox triage rule drafting, time-blocking calendar design, freelancer scope clarification, trip itinerary building, and end-of-day journaling prompts. Clears the starter backlog, refilled with 12 new ideas — 12/500.
-- 8 more prompts to `education-and-learning` (en/uk) — three-reading-level concept explanation, rubric-based essay feedback, peer-review feedback coaching, curriculum gap analysis, language learning conversation practice, certification exam weak-area diagnosis, corporate training module outlining, and parent homework-help coaching. Clears the starter backlog, refilled with 12 new ideas — 12/500.
 
 Full history lives in [`CHANGELOG.md`](CHANGELOG.md) — this section keeps only the most recent entries so it doesn't grow unbounded.
 
@@ -67,7 +67,7 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 Відкрита бібліотека промптів, патернів і технік для сучасних AI-моделей — двомовна, англійська та українська, і не більше ніж git-репозиторій. Жодного сайту, жодного застосунку: переглядайте прямо на GitHub, робіть `git clone` або беріть raw-файл напряму у свій AI-інструмент.
 
-**Статистика:** 275 промптів · 13 категорій, кожна з ціллю 500 унікальних промптів, усі 13 тепер із реальним контентом · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md). Кодинг та розробка — 153/500.
+**Статистика:** 283 промптів · 13 категорій, кожна з ціллю 500 унікальних промптів, усі 13 тепер із реальним контентом · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md). Кодинг та розробка — 153/500.
 
 ## Категорії
 
@@ -97,11 +97,11 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 ## Нещодавно додано
 
+- **Віха: кожна категорія тепер поглиблена за межі початкового заповнення.** `social-media` була останньою з категорій, що ще лишалась на стартовому рівні 4 промпти — ще 8 промптів (en/uk): складання відповідей на коментарі за типом питання, аудит принади для залучення, написання експертних постів LinkedIn, побудова хештег-стратегії, узагальнення аналітики для зацікавлених сторін, брифи колаборації з інфлюенсерами, адаптація тренду до голосу бренду та шаблони застосування правил спільноти. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 - Ще 8 промптів для `voice-and-audio` (en/uk) — списки виправлень вимови для TTS, перевірка послідовності голосу в довгих скриптах, написання аудіоопису для доступності, генерація нотаток і таймкодів подкасту, натуралізація наративу для e-learning, форматування мультиголосового скрипту для TTS, брифи концепції рекламного джингла та набори питань для інтерв'ю гостя подкасту. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 - Ще 8 промптів для `creative-and-visual` (en/uk) — генерація напрямків концепції логотипу, усунення проблем негативних промптів, дизайн набору ізометричних іконок, мудборди концепт-арту оточення, генерація варіантів тамбнейлів для A/B тестів, концепції ігрових ассетів під жанр, послідовності розкадровки для короткого відео та набори мудбордів бренду. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 - Ще 8 промптів для `research-and-academic` (en/uk) — критика розділу методології, перевірка перефразування проти плагіату, переклад фідбеку наукового керівника, підтягування сторінки цілей грантової заявки, узагальнення результатів простою мовою, пошук прогалин у related work, побудова структури конференційного виступу та перевірка стилю статистичної звітності. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 - Ще 8 промптів для `productivity-and-personal` (en/uk) — питання для рефлексії трекера звичок, перевірка адекватності особистого бюджету, діагностика першопричини прокрастинації, складання правил тріажу вхідних, дизайн календаря тайм-блокінгу, уточнення обсягу проєкту для фрилансера, побудова маршруту подорожі та щоденний промпт для рефлексії. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
-- Ще 8 промптів для `education-and-learning` (en/uk) — пояснення концепції на трьох рівнях складності, фідбек на есе за рубрикою, тренування фідбеку взаємного рецензування, аналіз прогалин у навчальній програмі, практика розмовної мови, діагностика слабких зон іспиту сертифікації, побудова структури корпоративного тренінгу та тренерський скрипт для батьків з допомоги з домашнім завданням. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 
 Повна історія — у [`CHANGELOG.md`](CHANGELOG.md); цей розділ навмисно містить лише останні записи, щоб не розростатися безмежно.
 

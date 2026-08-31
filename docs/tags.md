@@ -73,7 +73,7 @@ character-design, concept-art, consistency, game-art, icon-design, illustration,
 audio, podcast, scriptwriting, sound-design, transcription, tts, voiceover
 
 ## Social Media
-content-adaptation, content-calendar, crisis-communication, pr, short-form-video, social-media
+community-management, content-adaptation, content-calendar, crisis-communication, hashtag-strategy, influencer-marketing, pr, short-form-video, social-media
 
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request
