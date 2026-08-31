@@ -55,7 +55,7 @@ career, career-pathing, coaching, compensation, exit-interview, hr, management, 
 business-model, competitive-analysis, due-diligence, fundraising, investor-relations, market-research, okr, org-design, pricing, risk-management, strategy
 
 ## Education & Learning
-certification, corporate-training, curriculum-design, education, language-learning, lesson-planning, quiz, study-techniques, tutoring
+certification, corporate-training, curriculum-design, e-learning, education, language-learning, lesson-planning, quiz, study-techniques, tutoring
 
 ## Productivity & Personal
 delegation, habit-building, journaling, meeting-management, personal-finance, productivity, task-planning, time-blocking, travel-planning
@@ -70,7 +70,7 @@ abstract, academic-writing, citation, grant-writing, literature-review, peer-rev
 character-design, concept-art, consistency, game-art, icon-design, illustration, photography, product-design, product-mockups, style-transfer, thumbnail-design, ui-mockups
 
 ## Voice & Audio
-audio, podcast, scriptwriting, sound-design, transcription, voiceover
+audio, podcast, scriptwriting, sound-design, transcription, tts, voiceover
 
 ## Social Media
 content-adaptation, content-calendar, crisis-communication, pr, short-form-video, social-media
