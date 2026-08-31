@@ -55,7 +55,7 @@ career, career-pathing, coaching, compensation, exit-interview, hr, management, 
 business-model, competitive-analysis, due-diligence, fundraising, investor-relations, market-research, okr, org-design, pricing, risk-management, strategy
 
 ## Education & Learning
-education, lesson-planning, quiz, study-techniques, tutoring
+certification, corporate-training, curriculum-design, education, language-learning, lesson-planning, quiz, study-techniques, tutoring
 
 ## Productivity & Personal
 delegation, meeting-management, productivity, task-planning
