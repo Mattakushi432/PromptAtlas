@@ -61,7 +61,7 @@ education, lesson-planning, quiz, study-techniques, tutoring
 delegation, meeting-management, productivity, task-planning
 
 ## Data & Analysis
-data-analysis, data-visualization, eda, statistics
+anomaly-detection, data-analysis, data-cleaning, data-visualization, eda, forecasting, statistics
 
 ## Research & Academic
 abstract, academic-writing, literature-review, peer-review, research, research-design
