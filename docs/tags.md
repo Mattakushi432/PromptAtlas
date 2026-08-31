@@ -64,7 +64,7 @@ delegation, habit-building, journaling, meeting-management, personal-finance, pr
 anomaly-detection, data-analysis, data-cleaning, data-visualization, eda, forecasting, statistics
 
 ## Research & Academic
-abstract, academic-writing, literature-review, peer-review, research, research-design
+abstract, academic-writing, citation, grant-writing, literature-review, peer-review, research, research-design
 
 ## Creative & Visual
 character-design, consistency, illustration, photography, product-design, product-mockups, style-transfer, ui-mockups

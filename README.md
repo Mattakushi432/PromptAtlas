@@ -2,11 +2,11 @@
 
 [![Check bilingual parity](https://github.com/Mattakushi432/PromptAtlas/actions/workflows/check-parity.yml/badge.svg)](https://github.com/Mattakushi432/PromptAtlas/actions/workflows/check-parity.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Prompts](https://img.shields.io/badge/prompts-251-informational)](docs/roadmap.md)
+[![Prompts](https://img.shields.io/badge/prompts-259-informational)](docs/roadmap.md)
 
 An open-source library of prompts, patterns, and techniques for modern AI models — bilingual, English and Ukrainian, and nothing but a git repository. No website, no app: browse it directly on GitHub, `git clone` it, or grab a raw file straight into your AI tool of choice.
 
-**Stats:** 251 prompts · 13 categories, each targeting 500 distinct prompts, all 13 now with real content · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress. Coding & Development — 153/500.
+**Stats:** 259 prompts · 13 categories, each targeting 500 distinct prompts, all 13 now with real content · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress. Coding & Development — 153/500.
 
 ## Categories
 
@@ -36,11 +36,11 @@ Every category now has a start, but most are still far from their 500-prompt tar
 
 ## Recently added
 
+- 8 more prompts to `research-and-academic` (en/uk) — methodology section critique, paraphrase-vs-plagiarism checking, advisor feedback translation, grant proposal aims-page tightening, plain-language results summarizing, related-work gap finding, conference talk outlining, and statistical reporting style checking. Clears the starter backlog, refilled with 12 new ideas — 12/500.
 - 8 more prompts to `productivity-and-personal` (en/uk) — habit-tracker reflection prompts, personal finance budget sanity-checking, procrastination root-cause diagnosis, inbox triage rule drafting, time-blocking calendar design, freelancer scope clarification, trip itinerary building, and end-of-day journaling prompts. Clears the starter backlog, refilled with 12 new ideas — 12/500.
 - 8 more prompts to `education-and-learning` (en/uk) — three-reading-level concept explanation, rubric-based essay feedback, peer-review feedback coaching, curriculum gap analysis, language learning conversation practice, certification exam weak-area diagnosis, corporate training module outlining, and parent homework-help coaching. Clears the starter backlog, refilled with 12 new ideas — 12/500.
 - 8 more prompts to `business-and-strategy` (en/uk) — OKR draft-to-critique passing, pricing strategy stress-testing, strategic decision pre-mortems, org design tradeoff analysis, market entry feasibility checklists, due diligence question list generation, board deck narrative tightening, and quarterly business review summarizing. Clears the starter backlog, refilled with 12 new ideas — 12/500.
 - 8 more prompts to `data-and-analysis` (en/uk) — statistical test selection, analyst-facing SQL query performance review, anomaly explanation generation, data cleaning script generation, dashboard metric definition auditing, cohort analysis setup, forecast assumption stress-testing, and executive data-story narrative building. Clears the starter backlog, refilled with 12 new ideas — 12/500.
-- 12 more `coding` prompts (en/uk) — CORS misconfiguration review, JWT implementation review, file-upload security review, circuit-breaker design, dead-letter-queue handling design, sharding strategy, full-text search index design, SSR/hydration mismatch debugging, Web Worker offload advice, container-image CVE triage, disaster-recovery plan drafting, and consumer-driven contract test design. Backlog refilled to 20 — 153/500.
 
 Full history lives in [`CHANGELOG.md`](CHANGELOG.md) — this section keeps only the most recent entries so it doesn't grow unbounded.
 
@@ -67,7 +67,7 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 Відкрита бібліотека промптів, патернів і технік для сучасних AI-моделей — двомовна, англійська та українська, і не більше ніж git-репозиторій. Жодного сайту, жодного застосунку: переглядайте прямо на GitHub, робіть `git clone` або беріть raw-файл напряму у свій AI-інструмент.
 
-**Статистика:** 251 промптів · 13 категорій, кожна з ціллю 500 унікальних промптів, усі 13 тепер із реальним контентом · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md). Кодинг та розробка — 153/500.
+**Статистика:** 259 промптів · 13 категорій, кожна з ціллю 500 унікальних промптів, усі 13 тепер із реальним контентом · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md). Кодинг та розробка — 153/500.
 
 ## Категорії
 
@@ -97,11 +97,11 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 ## Нещодавно додано
 
+- Ще 8 промптів для `research-and-academic` (en/uk) — критика розділу методології, перевірка перефразування проти плагіату, переклад фідбеку наукового керівника, підтягування сторінки цілей грантової заявки, узагальнення результатів простою мовою, пошук прогалин у related work, побудова структури конференційного виступу та перевірка стилю статистичної звітності. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 - Ще 8 промптів для `productivity-and-personal` (en/uk) — питання для рефлексії трекера звичок, перевірка адекватності особистого бюджету, діагностика першопричини прокрастинації, складання правил тріажу вхідних, дизайн календаря тайм-блокінгу, уточнення обсягу проєкту для фрилансера, побудова маршруту подорожі та щоденний промпт для рефлексії. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 - Ще 8 промптів для `education-and-learning` (en/uk) — пояснення концепції на трьох рівнях складності, фідбек на есе за рубрикою, тренування фідбеку взаємного рецензування, аналіз прогалин у навчальній програмі, практика розмовної мови, діагностика слабких зон іспиту сертифікації, побудова структури корпоративного тренінгу та тренерський скрипт для батьків з допомоги з домашнім завданням. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 - Ще 8 промптів для `business-and-strategy` (en/uk) — критичний прохід чернетки OKR, стрес-тестування стратегії ціноутворення, передпохоронний аналіз стратегічних рішень, аналіз компромісів оргдизайну, чек-лист доцільності виходу на ринок, генерація списку питань due diligence, підтягування наративу презентації для ради директорів та узагальнення квартального бізнес-огляду. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 - Ще 8 промптів для `data-and-analysis` (en/uk) — вибір статистичного тесту, рев'ю продуктивності SQL-запитів для аналітиків, генерація пояснень аномалій, генерація скрипту очищення даних, аудит визначень метрик дашборду, налаштування когортного аналізу, стрес-тестування припущень прогнозу та побудова наративу даних для керівництва. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
-- Ще 12 промптів `coding` (en/uk) — рев'ю помилок конфігурації CORS, рев'ю реалізації JWT, рев'ю безпеки завантаження файлів, дизайн circuit breaker, дизайн обробки dead-letter черги, стратегія шардингу, дизайн індексу повнотекстового пошуку, дебагінг невідповідності SSR/гідратації, порада щодо офлоуду у Web Worker, тріаж CVE образів контейнерів, чернетка плану аварійного відновлення та дизайн consumer-driven контрактних тестів. Беклог поповнено до 20 — 153/500.
 
 Повна історія — у [`CHANGELOG.md`](CHANGELOG.md); цей розділ навмисно містить лише останні записи, щоб не розростатися безмежно.
 
