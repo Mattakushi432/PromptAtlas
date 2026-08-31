@@ -13,7 +13,7 @@ architecture, distributed-systems, event-driven, infrastructure-as-code, message
 api, api-design, authentication, authorization, backend, graphql, openapi, pagination, rate-limiting, rest, routing, webhooks
 
 ## Databases & Data
-data-modeling, data-sync, databases, disaster-recovery, migrations, normalization, orm, schema-design, schema-review, seed-data, sql
+data-modeling, data-sync, databases, disaster-recovery, migrations, normalization, orm, schema-design, schema-review, search, seed-data, sql
 
 ## Frontend & Mobile
 a11y, accessibility, core-web-vitals, css, design-systems, frontend, mobile, responsive-design
