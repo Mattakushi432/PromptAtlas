@@ -2,11 +2,11 @@
 
 [![Check bilingual parity](https://github.com/Mattakushi432/PromptAtlas/actions/workflows/check-parity.yml/badge.svg)](https://github.com/Mattakushi432/PromptAtlas/actions/workflows/check-parity.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Prompts](https://img.shields.io/badge/prompts-227-informational)](docs/roadmap.md)
+[![Prompts](https://img.shields.io/badge/prompts-235-informational)](docs/roadmap.md)
 
 An open-source library of prompts, patterns, and techniques for modern AI models — bilingual, English and Ukrainian, and nothing but a git repository. No website, no app: browse it directly on GitHub, `git clone` it, or grab a raw file straight into your AI tool of choice.
 
-**Stats:** 227 prompts · 13 categories, each targeting 500 distinct prompts, all 13 now with real content · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress. Coding & Development — 153/500.
+**Stats:** 235 prompts · 13 categories, each targeting 500 distinct prompts, all 13 now with real content · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress. Coding & Development — 153/500.
 
 ## Categories
 
@@ -36,11 +36,11 @@ Every category now has a start, but most are still far from their 500-prompt tar
 
 ## Recently added
 
+- 8 more prompts to `business-and-strategy` (en/uk) — OKR draft-to-critique passing, pricing strategy stress-testing, strategic decision pre-mortems, org design tradeoff analysis, market entry feasibility checklists, due diligence question list generation, board deck narrative tightening, and quarterly business review summarizing. Clears the starter backlog, refilled with 12 new ideas — 12/500.
 - 8 more prompts to `data-and-analysis` (en/uk) — statistical test selection, analyst-facing SQL query performance review, anomaly explanation generation, data cleaning script generation, dashboard metric definition auditing, cohort analysis setup, forecast assumption stress-testing, and executive data-story narrative building. Clears the starter backlog, refilled with 12 new ideas — 12/500.
 - 9 more prompts to `agents-and-automation` (en/uk) — multi-agent handoff protocol design, tool-use trace review, retry/fallback policy design, RAG chunking strategy, agent eval rubric generation, agent persona consistency auditing, no-code automation recipe building, prompt-chain failure-point diagnosis, and automation ROI scoping. Clears the starter backlog, refilled with 12 new ideas — 12/500.
 - 12 more `coding` prompts (en/uk) — CORS misconfiguration review, JWT implementation review, file-upload security review, circuit-breaker design, dead-letter-queue handling design, sharding strategy, full-text search index design, SSR/hydration mismatch debugging, Web Worker offload advice, container-image CVE triage, disaster-recovery plan drafting, and consumer-driven contract test design. Backlog refilled to 20 — 153/500.
 - 2 more prompts to `career-and-hr` (en/uk) — difficult feedback conversation scripting, and LinkedIn profile rewriting from a resume. Backlog refilled with 10 new ideas; issues #9-#11 remain open for contributors.
-- 12 more `coding` prompts (en/uk) — mobile deep-link routing validation, feature-flag sprawl auditing, idempotent webhook consumption, database index bloat auditing, A/B test sample-size sanity checking, API response compression strategy, Terraform state recovery planning, offline-conflict UX design, scheduled-job timezone correctness, GraphQL query-cost design, client-side form persistence, and multi-region deployment consistency. Reached 141/500 at the time.
 
 Full history lives in [`CHANGELOG.md`](CHANGELOG.md) — this section keeps only the most recent entries so it doesn't grow unbounded.
 
@@ -67,7 +67,7 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 Відкрита бібліотека промптів, патернів і технік для сучасних AI-моделей — двомовна, англійська та українська, і не більше ніж git-репозиторій. Жодного сайту, жодного застосунку: переглядайте прямо на GitHub, робіть `git clone` або беріть raw-файл напряму у свій AI-інструмент.
 
-**Статистика:** 227 промптів · 13 категорій, кожна з ціллю 500 унікальних промптів, усі 13 тепер із реальним контентом · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md). Кодинг та розробка — 153/500.
+**Статистика:** 235 промптів · 13 категорій, кожна з ціллю 500 унікальних промптів, усі 13 тепер із реальним контентом · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md). Кодинг та розробка — 153/500.
 
 ## Категорії
 
@@ -97,11 +97,11 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 ## Нещодавно додано
 
+- Ще 8 промптів для `business-and-strategy` (en/uk) — критичний прохід чернетки OKR, стрес-тестування стратегії ціноутворення, передпохоронний аналіз стратегічних рішень, аналіз компромісів оргдизайну, чек-лист доцільності виходу на ринок, генерація списку питань due diligence, підтягування наративу презентації для ради директорів та узагальнення квартального бізнес-огляду. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 - Ще 8 промптів для `data-and-analysis` (en/uk) — вибір статистичного тесту, рев'ю продуктивності SQL-запитів для аналітиків, генерація пояснень аномалій, генерація скрипту очищення даних, аудит визначень метрик дашборду, налаштування когортного аналізу, стрес-тестування припущень прогнозу та побудова наративу даних для керівництва. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 - Ще 9 промптів для `agents-and-automation` (en/uk) — дизайн протоколу передачі між агентами, рев'ю трасування використання інструментів, дизайн політики повторів і резервних варіантів, стратегія чанкінгу для RAG, генерація рубрики оцінювання агента, аудит консистентності персони агента, побудова no-code рецепту автоматизації, діагностика точки збою в ланцюжку промптів та скоупінг ROI автоматизації. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 - Ще 12 промптів `coding` (en/uk) — рев'ю помилок конфігурації CORS, рев'ю реалізації JWT, рев'ю безпеки завантаження файлів, дизайн circuit breaker, дизайн обробки dead-letter черги, стратегія шардингу, дизайн індексу повнотекстового пошуку, дебагінг невідповідності SSR/гідратації, порада щодо офлоуду у Web Worker, тріаж CVE образів контейнерів, чернетка плану аварійного відновлення та дизайн consumer-driven контрактних тестів. Беклог поповнено до 20 — 153/500.
 - Ще 2 промпти для `career-and-hr` (en/uk) — сценарій складної розмови з фідбеком та переписування профілю LinkedIn з резюме. Беклог поповнено 10 новими ідеями; issue #9-#11 лишаються відкритими для контриб'юторів.
-- Ще 12 промптів `coding` (en/uk) — валідація роутингу мобільних deep link, аудит розростання feature flags, огляд ідемпотентності споживача вебхуків, аудит розростання індексів БД, перевірка адекватності розміру вибірки A/B тестів, стратегія стиснення відповідей API, планування відновлення стану Terraform, дизайн UX офлайн-конфліктів, коректність часових поясів запланованих задач, дизайн вартості GraphQL-запитів, збереження стану форм на клієнті, узгодженість мультирегіонального деплою. На той момент досягли 141/500.
 
 Повна історія — у [`CHANGELOG.md`](CHANGELOG.md); цей розділ навмисно містить лише останні записи, щоб не розростатися безмежно.
 

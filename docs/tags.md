@@ -52,7 +52,7 @@ ad-copy, case-studies, conversion, icp, landing-pages, marketing-strategy, objec
 career, career-pathing, coaching, compensation, exit-interview, hr, management, performance-review, resume
 
 ## Business & Strategy
-business-model, competitive-analysis, fundraising, investor-relations, market-research, risk-management, strategy
+business-model, competitive-analysis, due-diligence, fundraising, investor-relations, market-research, okr, org-design, pricing, risk-management, strategy
 
 ## Education & Learning
 education, lesson-planning, quiz, study-techniques, tutoring
