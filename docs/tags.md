@@ -37,7 +37,7 @@ crash-analysis, debugging, error-handling, incident-response, race-conditions, r
 caching, capacity-planning, concurrency, cost-optimization, memory, multithreading, performance, profiling, scalability
 
 ## AI, Agents & Prompting
-agent-design, ai-agents, code-generation, multi-agent-workflows, prompt-engineering, socratic, system-prompt, tool-use
+agent-design, ai-agents, automation, code-generation, multi-agent-workflows, prompt-engineering, rag, socratic, system-prompt, tool-use
 
 ## Documentation & Communication
 diagrams, documentation, explain, readme
