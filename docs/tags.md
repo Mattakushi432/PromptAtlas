@@ -58,7 +58,7 @@ business-model, competitive-analysis, due-diligence, fundraising, investor-relat
 certification, corporate-training, curriculum-design, education, language-learning, lesson-planning, quiz, study-techniques, tutoring
 
 ## Productivity & Personal
-delegation, meeting-management, productivity, task-planning
+delegation, habit-building, journaling, meeting-management, personal-finance, productivity, task-planning, time-blocking, travel-planning
 
 ## Data & Analysis
 anomaly-detection, data-analysis, data-cleaning, data-visualization, eda, forecasting, statistics
