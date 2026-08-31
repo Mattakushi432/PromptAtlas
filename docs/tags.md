@@ -10,10 +10,10 @@ Grouped loosely by theme for scanability — a tag can reasonably apply across t
 architecture, distributed-systems, event-driven, infrastructure-as-code, message-queues, messaging, microservices, modularity, monorepo, multi-tenancy, offline-first, serverless, state-management, system-design, technology-selection
 
 ## Backend & APIs
-api, api-design, authentication, authorization, backend, graphql, openapi, pagination, rate-limiting, rest, webhooks
+api, api-design, authentication, authorization, backend, graphql, openapi, pagination, rate-limiting, rest, routing, webhooks
 
 ## Databases & Data
-data-modeling, data-sync, databases, disaster-recovery, migrations, normalization, orm, schema-design, schema-review, seed-data, sql
+data-modeling, data-sync, databases, disaster-recovery, migrations, normalization, orm, schema-design, schema-review, search, seed-data, sql
 
 ## Frontend & Mobile
 a11y, accessibility, core-web-vitals, css, design-systems, frontend, mobile, responsive-design
@@ -37,7 +37,7 @@ crash-analysis, debugging, error-handling, incident-response, race-conditions, r
 caching, capacity-planning, concurrency, cost-optimization, memory, multithreading, performance, profiling, scalability
 
 ## AI, Agents & Prompting
-agent-design, ai-agents, code-generation, multi-agent-workflows, prompt-engineering, socratic, system-prompt, tool-use
+agent-design, ai-agents, automation, code-generation, multi-agent-workflows, prompt-engineering, rag, socratic, system-prompt, tool-use
 
 ## Documentation & Communication
 diagrams, documentation, explain, readme
@@ -47,6 +47,33 @@ blog, brand-voice, content-creation, copywriting, editing, email, microcopy, sal
 
 ## Marketing & Sales
 ad-copy, case-studies, conversion, icp, landing-pages, marketing-strategy, objection-handling, paid-ads, personalization, positioning, sales, sales-enablement, seo
+
+## Career & HR
+career, career-pathing, coaching, compensation, exit-interview, hr, management, performance-review, resume
+
+## Business & Strategy
+business-model, competitive-analysis, due-diligence, fundraising, investor-relations, market-research, okr, org-design, pricing, risk-management, strategy
+
+## Education & Learning
+certification, corporate-training, curriculum-design, education, language-learning, lesson-planning, quiz, study-techniques, tutoring
+
+## Productivity & Personal
+delegation, habit-building, journaling, meeting-management, personal-finance, productivity, task-planning, time-blocking, travel-planning
+
+## Data & Analysis
+anomaly-detection, data-analysis, data-cleaning, data-visualization, eda, forecasting, statistics
+
+## Research & Academic
+abstract, academic-writing, citation, grant-writing, literature-review, peer-review, research, research-design
+
+## Creative & Visual
+character-design, consistency, illustration, photography, product-design, product-mockups, style-transfer, ui-mockups
+
+## Voice & Audio
+audio, podcast, scriptwriting, sound-design, transcription, voiceover
+
+## Social Media
+content-adaptation, content-calendar, crisis-communication, pr, short-form-video, social-media
 
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request
