@@ -37,7 +37,7 @@ crash-analysis, debugging, error-handling, incident-response, race-conditions, r
 caching, capacity-planning, concurrency, cost-optimization, memory, multithreading, performance, profiling, scalability
 
 ## AI, Agents & Prompting
-agent-design, ai-agents, automation, code-generation, multi-agent-workflows, prompt-engineering, rag, socratic, system-prompt, tool-use
+agent-design, ai-agents, automation, code-generation, image-generation, multi-agent-workflows, prompt-engineering, rag, socratic, system-prompt, tool-use
 
 ## Documentation & Communication
 diagrams, documentation, explain, readme
@@ -67,7 +67,7 @@ anomaly-detection, data-analysis, data-cleaning, data-visualization, eda, foreca
 abstract, academic-writing, citation, grant-writing, literature-review, peer-review, research, research-design
 
 ## Creative & Visual
-character-design, consistency, illustration, photography, product-design, product-mockups, style-transfer, ui-mockups
+character-design, concept-art, consistency, game-art, icon-design, illustration, photography, product-design, product-mockups, style-transfer, thumbnail-design, ui-mockups
 
 ## Voice & Audio
 audio, podcast, scriptwriting, sound-design, transcription, voiceover
