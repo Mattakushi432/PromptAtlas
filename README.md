@@ -2,11 +2,11 @@
 
 [![Check bilingual parity](https://github.com/Mattakushi432/PromptAtlas/actions/workflows/check-parity.yml/badge.svg)](https://github.com/Mattakushi432/PromptAtlas/actions/workflows/check-parity.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Prompts](https://img.shields.io/badge/prompts-286-informational)](docs/roadmap.md)
+[![Prompts](https://img.shields.io/badge/prompts-291-informational)](docs/roadmap.md)
 
 An open-source library of prompts, patterns, and techniques for modern AI models — bilingual, English and Ukrainian, and nothing but a git repository. No website, no app: browse it directly on GitHub, `git clone` it, or grab a raw file straight into your AI tool of choice.
 
-**Stats:** 286 prompts · 13 categories, each targeting 500 distinct prompts, all 13 now with real content · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress. Coding & Development — 153/500.
+**Stats:** 291 prompts · 13 categories, each targeting 500 distinct prompts, all 13 now with real content · 2 languages (EN / UK). See [`docs/roadmap.md`](docs/roadmap.md) for live per-category progress. Coding & Development — 153/500.
 
 ## Categories
 
@@ -36,6 +36,7 @@ Every category now has a start, but most are still far from their 500-prompt tar
 
 ## Recently added
 
+- 5 more prompts to `marketing-and-sales` (en/uk) — pricing page objection auditing, competitive battlecard building, referral program copy kits, sales deck narrative review, and churned-customer win-back sequencing. Clears the starter backlog, refilled with 10 new ideas — 12/500.
 - 3 more prompts to `writing-and-content` (en/uk) — technical concept simplification for laypeople, press release structuring, and video script beat-sheet planning. The 3 remaining backlog ideas stay reserved as open [good-first-contribution issues](https://github.com/Mattakushi432/PromptAtlas/issues) for contributors — 9/500.
 - **Milestone: every category has now been deepened past its original seed.** `social-media` was the last of the categories still at its 4-prompt floor — 8 more prompts (en/uk): comment response drafting by question type, engagement-bait auditing, LinkedIn thought-leadership drafting, hashtag strategy building, stakeholder analytics summarizing, influencer collab briefs, trend-to-brand-voice adaptation, and community guidelines enforcement templates. Clears the starter backlog, refilled with 12 new ideas — 12/500.
 - 8 more prompts to `voice-and-audio` (en/uk) — TTS pronunciation fix lists, voice consistency checking across long scripts, accessibility audio description writing, podcast show notes and timestamp generation, e-learning narration naturalization, multi-speaker TTS script formatting, ad jingle concept briefs, and podcast guest interview question sets. Clears the starter backlog, refilled with 12 new ideas — 12/500.
@@ -67,7 +68,7 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 Відкрита бібліотека промптів, патернів і технік для сучасних AI-моделей — двомовна, англійська та українська, і не більше ніж git-репозиторій. Жодного сайту, жодного застосунку: переглядайте прямо на GitHub, робіть `git clone` або беріть raw-файл напряму у свій AI-інструмент.
 
-**Статистика:** 286 промптів · 13 категорій, кожна з ціллю 500 унікальних промптів, усі 13 тепер із реальним контентом · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md). Кодинг та розробка — 153/500.
+**Статистика:** 291 промптів · 13 категорій, кожна з ціллю 500 унікальних промптів, усі 13 тепер із реальним контентом · 2 мови (EN / UK). Актуальний прогрес по категоріях — у [`docs/roadmap.md`](docs/roadmap.md). Кодинг та розробка — 153/500.
 
 ## Категорії
 
@@ -97,11 +98,11 @@ Contributions are welcome — new prompts, translations, and fixes to existing o
 
 ## Нещодавно додано
 
+- Ще 5 промптів для `marketing-and-sales` (en/uk) — аудит заперечень сторінки ціноутворення, побудова конкурентної battlecard, комплекти копірайту реферальної програми, рев'ю наративу презентації продажів та послідовність повернення відтеклого клієнта. Закриває стартовий беклог, поповнено 10 новими ідеями — 12/500.
 - Ще 3 промпти для `writing-and-content` (en/uk) — спрощення технічної концепції для непрофесіоналів, структурування прес-релізу та планування поударної схеми відеосценарію. 3 залишкові ідеї беклогу лишаються зарезервованими як відкриті [good-first-contribution issues](https://github.com/Mattakushi432/PromptAtlas/issues) для контриб'юторів — 9/500.
 - **Віха: кожна категорія тепер поглиблена за межі початкового заповнення.** `social-media` була останньою з категорій, що ще лишалась на стартовому рівні 4 промпти — ще 8 промптів (en/uk): складання відповідей на коментарі за типом питання, аудит принади для залучення, написання експертних постів LinkedIn, побудова хештег-стратегії, узагальнення аналітики для зацікавлених сторін, брифи колаборації з інфлюенсерами, адаптація тренду до голосу бренду та шаблони застосування правил спільноти. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 - Ще 8 промптів для `voice-and-audio` (en/uk) — списки виправлень вимови для TTS, перевірка послідовності голосу в довгих скриптах, написання аудіоопису для доступності, генерація нотаток і таймкодів подкасту, натуралізація наративу для e-learning, форматування мультиголосового скрипту для TTS, брифи концепції рекламного джингла та набори питань для інтерв'ю гостя подкасту. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 - Ще 8 промптів для `creative-and-visual` (en/uk) — генерація напрямків концепції логотипу, усунення проблем негативних промптів, дизайн набору ізометричних іконок, мудборди концепт-арту оточення, генерація варіантів тамбнейлів для A/B тестів, концепції ігрових ассетів під жанр, послідовності розкадровки для короткого відео та набори мудбордів бренду. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
-- Ще 8 промптів для `research-and-academic` (en/uk) — критика розділу методології, перевірка перефразування проти плагіату, переклад фідбеку наукового керівника, підтягування сторінки цілей грантової заявки, узагальнення результатів простою мовою, пошук прогалин у related work, побудова структури конференційного виступу та перевірка стилю статистичної звітності. Закриває стартовий беклог, поповнено 12 новими ідеями — 12/500.
 
 Повна історія — у [`CHANGELOG.md`](CHANGELOG.md); цей розділ навмисно містить лише останні записи, щоб не розростатися безмежно.
 
