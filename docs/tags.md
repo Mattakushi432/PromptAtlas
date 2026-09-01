@@ -43,7 +43,7 @@ agent-design, ai-agents, automation, code-generation, image-generation, multi-ag
 diagrams, documentation, explain, readme
 
 ## Writing & Content
-blog, brand-voice, content-creation, copywriting, editing, email, microcopy, sales-outreach, tone, ux-writing
+blog, brand-voice, content-creation, copywriting, editing, email, microcopy, sales-outreach, technical-writing, tone, ux-writing
 
 ## Marketing & Sales
 ad-copy, case-studies, conversion, icp, landing-pages, marketing-strategy, objection-handling, paid-ads, personalization, positioning, sales, sales-enablement, seo
