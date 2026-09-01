@@ -49,7 +49,7 @@ blog, brand-voice, content-creation, copywriting, editing, email, microcopy, sal
 ad-copy, case-studies, conversion, icp, landing-pages, marketing-strategy, objection-handling, paid-ads, personalization, positioning, sales, sales-enablement, seo
 
 ## Career & HR
-career, career-pathing, coaching, compensation, exit-interview, hr, management, performance-review, resume
+career, career-pathing, coaching, compensation, exit-interview, hr, interview-prep, job-descriptions, management, performance-review, resume, retention
 
 ## Business & Strategy
 business-model, competitive-analysis, due-diligence, fundraising, investor-relations, market-research, okr, org-design, pricing, risk-management, strategy
