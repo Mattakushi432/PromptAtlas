@@ -16,21 +16,27 @@
 7. `technical-concept-simplifier-for-laypeople` — technical writing / adapt-tone / intermediate — simplifies a technical explanation for a lay audience while preserving substance and relevant caveats.
 8. `press-release-structurer` — press/PR / draft / intermediate — structures announcement facts into inverted-pyramid press release format, distinct from `crisis-response-statement-drafter` (social-media)'s reactive-statement scope.
 9. `video-script-beat-sheet-builder` — scriptwriting / plan / intermediate — plans a video's beat-by-beat structure and timing before script prose is written.
+10. `executive-bio-writer-from-a-raw-career-history` — technical writing / draft / intermediate — writes a bio at three consistent lengths (one-line, paragraph, full) from raw career history.
+11. `content-style-guide-drafter-from-existing-samples` — technical writing / document / intermediate — reverse-engineers checkable style rules from existing on-brand samples, naming genuine inconsistency rather than forcing a rule.
+12. `bilingual-content-parity-checker` — editing / intermediate — checks a translation/localization against its source for meaning drift, tone mismatch, and dropped/added content beyond literal accuracy.
+13. `op-ed-argument-structure-builder` — long-form / plan / intermediate — structures a persuasive piece's argument sequence and ensures the strongest counter-argument is addressed, not ignored.
+14. `newsletter-issue-assembler-from-a-content-backlog` — email / plan / beginner — assembles a coherent newsletter issue from a loose content backlog rather than a random grab-bag order.
+15. `faq-page-generator-from-support-tickets` — technical writing / draft / beginner — generates a genuine FAQ from recurring support questions, phrased as customers actually ask them.
+16. `book-chapter-outline-structural-reviewer` — long-form / critique / intermediate — reviews a book/chapter outline for pacing and structure gaps before any prose is drafted.
+17. `testimonial-request-message-drafter` — email / draft / beginner — drafts a specific, low-effort testimonial request referencing the customer's actual outcome, distinct from `case-study-interview-to-draft-converter` (marketing-and-sales)'s full interview-process scope.
+18. `content-repurposing-format-matrix-builder` — repurpose / plan / intermediate — plans genuine format-appropriate restructuring across multiple output formats at once, distinct in scope from the reserved single-platform `long-form-to-thread-repurposer` idea (#6).
 
 ## Backlog — ideas ready to draft
 
-_3 of the original 6 backlog items are still reserved as open GitHub good-first-contribution issues (checked 2026-08-31: all open, unclaimed, uncommented) and were deliberately left for contributors rather than drafted directly. The other 3 were drafted this session. Refilled below with 10 new matrix-derived ideas per `CURATOR_PROMPT.md` §6.3's ~20-entry threshold — modest refill size since this category's backlog turnover is intentionally slower while community issues stay open._
+_9 of the 13 non-issue-linked backlog items from the prior refill were drafted this session (2026-09-01); one (`Case Study Structurer from Interview Notes`) was found to be a near-duplicate of the already-shipped `case-study-interview-to-draft-converter` (marketing-and-sales) and removed rather than drafted, per the distinctiveness test (§6.2). The 3 issue-linked items remain reserved (checked 2026-09-01: all still open, unclaimed, uncommented). Refilled below with new matrix-derived ideas per `CURATOR_PROMPT.md` §6.3._
 
 1. **Long-Form to Thread Repurposer** — repurpose — turns an article into a platform-native thread. (Invite issue open: [#6](https://github.com/Mattakushi432/PromptAtlas/issues/6))
 2. **Headline A/B Variant Generator** — hook-generation / marketing team. (Invite issue open: [#7](https://github.com/Mattakushi432/PromptAtlas/issues/7))
 3. **Product Description Generator from Spec Sheet** — product descriptions / draft. (Invite issue open: [#8](https://github.com/Mattakushi432/PromptAtlas/issues/8))
-4. **Executive Bio Writer from a Raw Career History** — technical writing / draft — turns a raw resume/career history into a polished executive bio at multiple lengths (one-line, one-paragraph, full).
-5. **Case Study Structurer from Interview Notes** — long-form / draft — structures raw customer-interview notes into a problem-solution-results case study.
-6. **Content Style Guide Drafter from Existing Samples** — technical writing / document — reverse-engineers a written style guide from a set of existing on-brand content samples.
-7. **Newsletter Issue Assembler from a Content Backlog** — email / plan — assembles a coherent newsletter issue from a loose backlog of links/updates rather than a random grab-bag.
-8. **FAQ Page Generator from Support Tickets** — technical writing / draft — turns raw, recurring support questions into a genuine FAQ page, not padded with unasked questions.
-9. **Book/Chapter Outline Structural Reviewer** — long-form / critique — reviews a long-form outline for pacing/structure gaps before drafting begins.
-10. **Bilingual Content Parity Checker** — editing — checks a translated/localized piece against its source for meaning drift beyond literal translation accuracy.
-11. **Testimonial Request Message Drafter** — email / draft — drafts a specific, non-generic request for a customer testimonial referencing their actual experience.
-12. **Content Repurposing Format Matrix Builder** — repurpose / plan — plans how one piece of pillar content adapts across formats (blog, email, social) with format-appropriate restructuring, not copy-paste.
-13. **Op-Ed Argument Structure Builder** — long-form / plan — structures a persuasive op-ed's argument sequence before prose drafting, checking for the strongest counter-argument being addressed.
+4. **Speaker/Panel Introduction Script Writer** — scriptwriting / draft — writes the specific spoken introduction a host reads before a speaker takes the stage, distinct from `executive-bio-writer-from-a-raw-career-history`'s written-bio-for-a-program scope.
+5. **Content Brief Reviewer for Freelance Writers** — technical writing / critique — reviews a content brief for gaps a freelance writer would otherwise have to guess at (audience, required sources, word count, tone) before work begins.
+6. **Glossary/Terminology Page Generator from a Document Set** — technical writing / draft — extracts and defines domain-specific terms consistently used across a set of documents into a genuine glossary page.
+7. **Email Subject Line A/B Variant Generator** — email / draft — generates genuinely distinct subject-line approaches (curiosity, direct benefit, urgency) for a specific email, not minor wording tweaks of one approach.
+8. **Comparison/Alternatives Page Structurer** — technical writing / draft — structures an honest "us vs. competitor" or "alternatives to X" page that acknowledges real tradeoffs rather than one-sided marketing claims.
+9. **Long-Form Content Length Justifier** — long-form / critique — checks whether a long-form piece's actual length is earned by its content density, flagging padding versus genuinely necessary depth.
+10. **Recurring Column/Series Voice Consistency Checker** — editing — checks a new installment of a recurring column against prior installments for voice/format consistency, the content-series counterpart to `bilingual-content-parity-checker`'s cross-language scope.
