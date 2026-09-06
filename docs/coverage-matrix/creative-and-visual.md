@@ -21,20 +21,32 @@ Covers Midjourney/DALL·E/Sora-style image and video generation prompts.
 10. `game-asset-concept-prompt-for-a-specific-genre` — indie game dev / generate — calibrates asset style to a game's specific genre conventions rather than generic fantasy art.
 11. `short-form-video-storyboard-prompt-sequence` — motion/video / plan — a 4-6 frame storyboard sequence with consistent style and recurring-subject description across shots.
 12. `brand-mood-board-prompt-kit-from-a-brand-brief` — product mockups / generate / marketing designer — 4-6 prompts spanning genuinely different visual territories (texture, lifestyle photography, abstract pattern, typography mood), distinct from `logo-concept-direction-generator`'s specific-mark scope.
+13. `product-packaging-mockup-prompt-set` — product mockups / generate — front/3-4/on-shelf-context packaging angles for a described product, distinct from `photoreal-product-shot-prompt-builder`'s single hero shot.
+14. `seasonal-campaign-variant-prompt-adapter` — style-transfer / generate — holds art style and brand identity constant while layering a temporary seasonal/campaign theme, distinct from `style-transfer-prompt-adapter`'s medium/technique swap.
+15. `texture-material-study-prompt-set` — illustration / generate — close-up material-study prompts (fabric, metal, wood grain) as a reference/mood asset, feeding into `environment-concept-art-mood-board-set`'s `{{LOCATION_DESCRIPTION}}` for full-scene consistency.
+16. `isometric-diorama-scene-builder` — environment art / generate — one unified multi-element isometric scene with explicit relative-scale control, distinct from `isometric-icon-set-prompt-generator`'s series of separate single-icon generations.
+17. `brand-photography-style-guide-prompt-kit` — photography / generate — a cross-subject photography style system (lighting, color grade, framing), distinct from `photoreal-product-shot-prompt-builder`'s single hero shot and reusing `consistent-character-sheet-prompt-series`'s verbatim-reuse discipline.
+18. `emoji-sticker-set-prompt-generator` — illustration / generate — the emoji-scale counterpart to `isometric-icon-set-prompt-generator`, applied to one mascot's expressions rather than unrelated objects.
+19. `book-album-cover-concept-generator` — illustration / generate — cover concepts calibrated to genre convention (per `game-asset-concept-prompt-for-a-specific-genre`) using `thumbnail-variant-generator-for-a-b-testing`'s reserved-negative-space technique for cover text.
+20. `ai-image-upscale-detail-pass-prompt-advisor` — generate / optimize-refactor — the category's second chat-LLM (not direct image-gen) prompt: advises on a detail-enhancement pass once composition is already right, distinct from `negative-prompt-troubleshooter`'s compositional/content fixes.
+21. `trade-show-booth-concept-visualizer` — environment art / generate — applies `environment-concept-art-mood-board-set`'s base+variant consistency discipline to a commercial exhibit/booth structure.
+22. `consistent-color-grade-lut-style-prompt-adapter` — style-transfer / generate — unifies only color grade across several varied subjects/styles, distinct from `style-transfer-prompt-adapter`'s whole-style swap on one fixed subject.
+23. `motion-graphics-style-frame-generator` — motion/video / generate — a subject-less graphic-design style system, distinct from `short-form-video-storyboard-prompt-sequence`'s recurring-subject narrative sequence.
+24. `print-ad-layout-concept-generator` — product mockups / generate — the print counterpart of `thumbnail-variant-generator-for-a-b-testing`'s reserved-copy-space technique, adapted to full-bleed print aspect ratios.
 
 ## Backlog — ideas ready to draft
 
-_Drawn down to 0 this session (2026-08-31) — the 8 items above cleared the entire starter backlog. Refilled below from the coverage matrix's dimension-crossing method (§6.1) before the next creative-and-visual session._
+_Drawn down to 0 again this session (2026-09-06) via three parallel forks (4 each) — items 13-24 above cleared the entire refilled backlog. Refilled below from the coverage matrix's dimension-crossing method (§6.1) before the next creative-and-visual session._
 
-1. **Product Packaging Mockup Prompt Set** — product mockups / generate — a set of packaging-angle prompts (front, 3/4, on-shelf context) for a described product.
-2. **Seasonal/Campaign Variant Prompt Adapter** — style-transfer / generate — adapts an established visual asset to a seasonal or campaign theme while preserving brand consistency.
-3. **Texture/Material Study Prompt Set** — illustration / generate — close-up material-study prompts (fabric, metal, wood grain) for a described surface, useful as a reference/mood asset.
-4. **Isometric Diorama Scene Builder** — environment art / generate — a single cohesive isometric scene combining multiple described elements at consistent scale/perspective.
-5. **Brand Photography Style Guide Prompt Kit** — photography / generate — a set of prompts establishing a consistent photography style (lighting, color grade, framing) across different subjects for one brand.
-6. **Emoji/Sticker Set Prompt Generator** — illustration / generate — a consistent small emoji/sticker set sharing style and proportions, the emoji-scale counterpart to `isometric-icon-set-prompt-generator`.
-7. **Book/Album Cover Concept Generator** — illustration / generate — cover concept directions calibrated to genre convention, similar in spirit to `game-asset-concept-prompt-for-a-specific-genre` but for print/media covers.
-8. **AI Image Upscale/Detail-Pass Prompt Advisor** — generate / optimize-refactor — advises on prompt/parameter adjustments for a detail-enhancement pass on an already-generated base image.
-9. **Trade Show Booth Concept Visualizer** — environment art / generate — visualizes a booth/exhibit concept from a brief, useful for pitching a design direction before fabrication.
-10. **Consistent Color-Grade LUT-Style Prompt Adapter** — style-transfer / generate — applies a described color-grade mood consistently across a set of otherwise-varied image prompts.
-11. **Motion Graphics Style Frame Generator** — motion/video / generate — key style frames for a motion-graphics piece establishing look before animation work begins.
-12. **Print Ad Layout Concept Generator** — product mockups / generate — full-bleed print ad layout concepts with reserved copy space, the print counterpart to the thumbnail A/B prompt's reserved-text-space technique.
+1. **UI Dark/Light Theme Variant Adapter** — UI mockups / style-transfer — adapts an existing app-screen mockup prompt to a light/dark theme pair while preserving layout.
+2. **Character Turnaround Sheet Prompt Generator** — character design / consistency — front/3-4/side/back turnaround views of one character at fixed proportions for animation/3D reference, distinct from `consistent-character-sheet-prompt-series`'s expression/pose variety (verify against that prompt's exact scope before drafting).
+3. **Icon Style Guide Extrapolator from a Single Reference Icon** — icon design / consistency — derives a full icon-set style guide (stroke weight, corner radius, palette) from one approved icon, non-isometric counterpart to `isometric-icon-set-prompt-generator`.
+4. **Product Launch Teaser Reveal Image Sequence** — product mockups / motion — a silhouette-to-full-reveal teaser sequence for a product launch.
+5. **Merch/Apparel Mockup Prompt Set** — product mockups / generate — apparel mockups (t-shirt, hoodie, tote) for a given print design across body types/contexts.
+6. **Historical/Period-Accurate Illustration Detail Advisor** — illustration / generate — a chat-LLM prompt (third of its kind, alongside `negative-prompt-troubleshooter` and `ai-image-upscale-detail-pass-prompt-advisor`) that helps pick period-accurate visual details for historical settings before generation.
+7. **Seamless Vector Pattern/Tile Repeat Generator** — illustration / generate — a seamless repeating pattern prompt for textile/wallpaper use.
+8. **AI Avatar/Profile Picture Style Kit** — character design / generate — a small set of stylistically consistent profile-picture crops for a described persona, distinct from the character sheet's full-body/expression scope.
+9. **Explainer-Video Mascot Style Frame Set** — motion/video / character design — key frames establishing a friendly explainer-video mascot's look, distinct from `motion-graphics-style-frame-generator`'s subject-less graphic system.
+10. **Infographic Illustration Style Kit** — illustration / generate — a consistent icon/color/illustration style for a set of infographic panels.
+11. **Storefront/Retail Window Display Mockup Generator** — environment art / generate — visualizes a retail window/storefront display concept, distinct from `trade-show-booth-concept-visualizer`'s exhibit-booth scope.
+12. **Podcast/YouTube Channel Branding Kit** — thumbnail design / generate — cover art, banner, and thumbnail-template prompts styled consistently for a content creator's channel, a channel-level counterpart to `thumbnail-variant-generator-for-a-b-testing`'s single-video scope.
