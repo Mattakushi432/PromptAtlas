@@ -37,25 +37,25 @@ crash-analysis, debugging, error-handling, incident-response, race-conditions, r
 caching, capacity-planning, concurrency, cost-optimization, memory, multithreading, performance, profiling, scalability
 
 ## AI, Agents & Prompting
-agent-design, ai-agents, automation, code-generation, multi-agent-workflows, prompt-engineering, rag, socratic, system-prompt, tool-use
+agent-design, ai-agents, automation, code-generation, image-generation, multi-agent-workflows, prompt-engineering, rag, socratic, system-prompt, tool-use
 
 ## Documentation & Communication
 diagrams, documentation, explain, readme
 
 ## Writing & Content
-blog, brand-voice, content-creation, copywriting, editing, email, microcopy, sales-outreach, tone, ux-writing
+blog, brand-voice, content-creation, copywriting, editing, email, microcopy, sales-outreach, technical-writing, tone, ux-writing
 
 ## Marketing & Sales
 ad-copy, case-studies, conversion, icp, landing-pages, marketing-strategy, objection-handling, paid-ads, personalization, positioning, sales, sales-enablement, seo
 
 ## Career & HR
-career, career-pathing, coaching, compensation, exit-interview, hr, management, performance-review, resume
+career, career-pathing, coaching, compensation, exit-interview, hr, interview-prep, job-descriptions, management, performance-review, resume, retention
 
 ## Business & Strategy
 business-model, competitive-analysis, due-diligence, fundraising, investor-relations, market-research, okr, org-design, pricing, risk-management, strategy
 
 ## Education & Learning
-certification, corporate-training, curriculum-design, education, language-learning, lesson-planning, quiz, study-techniques, tutoring
+certification, corporate-training, curriculum-design, e-learning, education, language-learning, lesson-planning, quiz, study-techniques, tutoring
 
 ## Productivity & Personal
 delegation, habit-building, journaling, meeting-management, personal-finance, productivity, task-planning, time-blocking, travel-planning
@@ -67,13 +67,13 @@ anomaly-detection, data-analysis, data-cleaning, data-visualization, eda, foreca
 abstract, academic-writing, citation, grant-writing, literature-review, peer-review, research, research-design
 
 ## Creative & Visual
-character-design, consistency, illustration, photography, product-design, product-mockups, style-transfer, ui-mockups
+character-design, concept-art, consistency, game-art, icon-design, illustration, photography, product-design, product-mockups, style-transfer, thumbnail-design, ui-mockups
 
 ## Voice & Audio
-audio, podcast, scriptwriting, sound-design, transcription, voiceover
+audio, podcast, scriptwriting, sound-design, transcription, tts, voiceover
 
 ## Social Media
-content-adaptation, content-calendar, crisis-communication, pr, short-form-video, social-media
+community-management, content-adaptation, content-calendar, crisis-communication, hashtag-strategy, influencer-marketing, pr, short-form-video, social-media
 
 ## Version Control & Process
 blame, code-history, commit-messages, git, merge-conflicts, pull-request

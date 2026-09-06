@@ -19,20 +19,30 @@
 10. `due-diligence-question-list-generator` — M&A / plan / advanced — generates a DD question list prioritized toward questions most likely to surface a deal-breaker given the stated rationale.
 11. `board-deck-narrative-tightener` — communicate / optimize-refactor / intermediate — tightens a board deck's narrative throughline and flags slides that don't serve its stated purpose, distinct from `tone-adapter` (writing-and-content)'s register-adjustment scope.
 12. `quarterly-business-review-summarizer` — communicate / draft / intermediate — synthesizes multiple teams' raw period updates into one theme-grouped QBR narrative, flagging notably-absent metrics.
+13. `go-no-go-decision-framework-builder` — decision-making / plan / intermediate — structures explicit go/no-go thresholds before a decision checkpoint arrives, closing off sunk-cost-driven improvisation under pressure.
+14. `competitor-response-simulator` — competitive-analysis / plan / advanced — generates a specific competitor's most likely counter-moves to a planned strategic action, ranked by probability and severity, grounded in that competitor's real incentives/constraints.
+15. `strategic-partnership-fit-assessor` — plan / analyze — assesses whether a proposed partnership actually fits strategically, not just operationally convenient.
+16. `cost-structure-vulnerability-analyzer` — analyze / risk assessment — analyzes which cost-structure elements are most exposed to specific shock scenarios.
+17. `strategic-plan-assumption-audit` — critique / plan — surfaces and stress-tests the load-bearing assumptions hidden inside a strategic plan.
+18. `exit-readiness-gap-analyzer` — strategy / due-diligence / advanced — self-assessment of operational/financial/legal exit-readiness gaps, distinct from `due-diligence-question-list-generator`'s acquirer-question-list scope.
+19. `internal-business-case-red-team-reviewer` — critique / plan — red-teams an internal business case before it goes to decision-makers, surfacing the weakest links an opponent would attack.
+20. `vendor-supplier-concentration-risk-auditor` — risk assessment / analyze — audits concentration risk across vendors/suppliers a strategy quietly depends on.
+21. `strategic-narrative-consistency-checker` — communicate / critique — checks whether the strategic narrative told to different audiences (board, investors, team) stays consistent without contradicting itself.
+22. `new-market-sizing-sanity-checker` — analyze / critique — sanity-checks a new-market sizing estimate against bottom-up reality checks rather than top-down TAM inflation.
+23. `post-acquisition-integration-milestone-planner` — plan / M&A — plans concrete post-acquisition integration milestones tied to the deal's actual value-creation thesis.
+24. `strategic-options-comparison-matrix-builder` — strategy / decision-making / intermediate — structures 2-4 genuinely distinct strategic paths against the same criteria, checking for false binaries and evaluator bias toward a presumed-preferred option.
 
 ## Backlog — ideas ready to draft
 
-_Drawn down to 0 this session (2026-08-31) — the 8 items above cleared the entire starter backlog. Refilled below from the coverage matrix's dimension-crossing method (§6.1) before the next business-and-strategy session._
+_Drawn down to 0 this session (2026-09-01) — the 12 items above cleared the entire refilled backlog. Refilled below from the coverage matrix's dimension-crossing method (§6.1) before the next business-and-strategy session._
 
-1. **Go/No-Go Decision Framework Builder** — plan — structures the explicit criteria and thresholds for a go/no-go call before the decision point arrives, so it isn't made ad hoc under pressure.
-2. **Competitor Response Simulator** — competitive analysis / plan — given a planned strategic move, generates the most likely competitor countermoves and how to hedge against the strongest one.
-3. **Strategic Partnership Fit Assessor** — plan / critique — evaluates a proposed partnership for genuine complementarity vs. surface-level logo-collecting.
-4. **Cost Structure Vulnerability Analyzer** — analyze — identifies which line items in a cost structure are most exposed to a specific external shock (supplier concentration, FX, single-vendor dependency).
-5. **Strategic Plan Assumption Audit** — critique — extracts and challenges the unstated assumptions embedded in a multi-year strategic plan, the plan-level counterpart to `strategic-decision-pre-mortem`'s single-decision scope.
-6. **Exit Readiness Gap Analyzer** — plan / founder — assesses what operational/financial/legal gaps stand between current state and being acquisition- or IPO-ready.
-7. **Internal Business Case Red-Team Reviewer** — critique — argues against a proposed internal business case as a skeptical budget-holder would, before it's pitched for real.
-8. **Vendor/Supplier Concentration Risk Auditor** — risk assessment / critique — flags single-point-of-failure dependency on a key vendor or supplier and what a disruption would actually cost.
-9. **Strategic Narrative Consistency Checker** — critique — checks whether the story told to investors, employees, and customers about the company's direction is actually the same story, or has quietly diverged.
-10. **New Market Sizing Sanity-Checker** — market research / critique — stress-tests a TAM/SAM/SOM estimate's methodology and assumptions before it anchors a strategic decision.
-11. **Post-Acquisition Integration Milestone Planner** — plan — sequences the first 100 days of integration work after a deal closes, distinct from `due-diligence-question-list-generator`'s pre-close scope.
-12. **Strategic Options Comparison Matrix Builder** — plan — structures 2-4 genuinely distinct strategic paths side by side against the same criteria, to avoid a false binary or an uneven comparison.
+1. **Founder-Market Fit Self-Assessment** — plan / founder — helps a founder honestly assess whether their specific background actually maps to the market they're pursuing, distinct from `icp-positioning-statement-drafter`'s customer-facing positioning scope.
+2. **Strategic Pivot Decision Brief** — critique / plan — structures the case for and against a pivot given specific signals (traction data, market feedback), avoiding both premature pivoting and stubborn persistence.
+3. **Board Meeting Pre-Read Drafter** — communicate / draft — drafts a concise, decision-focused board pre-read that surfaces what actually needs board input rather than a status-update wall of text.
+4. **Strategic Hire Business Case Builder** — plan — builds the case for a specific strategic (not routine) hire, tied to a concrete capability gap rather than generic headcount growth.
+5. **Geographic Expansion Sequencing Advisor** — plan — sequences which markets to enter first given resource constraints and market-readiness signals, rather than expanding everywhere at once.
+6. **Strategic Risk Appetite Statement Drafter** — plan / risk assessment — drafts an explicit risk appetite statement (what risk levels are acceptable in which areas) to guide decisions before they arise, not after.
+7. **Competitive Moat Durability Assessor** — competitive analysis / critique — assesses how durable a claimed competitive advantage actually is against specific erosion pressures (imitation cost, substitute technology, customer switching cost).
+8. **Strategic Plan One-Pager Compressor** — communicate / edit — compresses a full multi-year strategic plan into a genuinely usable one-page summary without losing the load-bearing specifics.
+9. **Joint Venture Structure Comparison** — plan / critique — compares JV structure options (equity split, governance, exit terms) against the specific goals of the venture, not a generic legal-structure checklist.
+10. **Post-Mortem Facilitation Guide for a Failed Initiative** — critique / plan — structures a blameless post-mortem for a strategic initiative that didn't work, extracting transferable lessons rather than assigning fault.
